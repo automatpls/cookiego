@@ -3,7 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"net"
+	"net/http"
 	"os"
 	"strings"
 	"sync"
@@ -23,9 +23,24 @@ func ReadLinks(filename string) ([]string, error) {
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
 		link := scanner.Text()
-		if !strings.Contains(link, ":") {
-			link += ":80"
+		link = strings.TrimSpace(link) // Убираем лишние пробелы
+
+		// Проверяем, начинается ли ссылка с https://
+		if strings.HasPrefix(link, "https://") {
+			// Если есть https, добавляем порт 443
+			if !strings.Contains(link, ":") {
+				link += ":443"
+			}
+		} else if strings.HasPrefix(link, "http://") {
+			// Если есть http, добавляем порт 80
+			if !strings.Contains(link, ":") {
+				link += ":80"
+			}
+		} else {
+			// Если ссылка не содержит протокол, добавляем http:// и порт 80
+			link = "http://" + link + ":80"
 		}
+
 		links = append(links, link)
 	}
 
@@ -36,17 +51,29 @@ func ReadLinks(filename string) ([]string, error) {
 	return links, nil
 }
 
-// Проверяем подключение к ссылке
+// Проверка подключения к ссылке с использованием пакета net/http
 func CheckConnection(link string, wg *sync.WaitGroup) {
 	defer wg.Done()
 
-	conn, err := net.DialTimeout("tcp", link, 3*time.Second)
+	// Устанавливаем таймаут для HTTP-запроса
+	client := http.Client{
+		Timeout: 3 * time.Second,
+	}
+
+	// Отправляем GET-запрос
+	resp, err := client.Get(link)
 	if err != nil {
 		fmt.Printf("Не удалось подключиться к сайту %s: %v\n", link, err)
 		return
 	}
-	conn.Close()
-	fmt.Printf("Успешное подключение к %s\n", link)
+	defer resp.Body.Close()
+
+	// Проверяем, если статус код ответа успешный
+	if resp.StatusCode == http.StatusOK {
+		fmt.Printf("Успешное подключение к %s\n", link)
+	} else {
+		fmt.Printf("Не удалось подключиться к сайту %s, статус: %d\n", link, resp.StatusCode)
+	}
 }
 
 func main() {
