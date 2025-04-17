@@ -10,7 +10,6 @@ import (
 	"time"
 )
 
-// Чтение файла и запись ссылок в массив
 func ReadLinks(filename string) ([]string, error) {
 	var links []string
 
@@ -23,21 +22,17 @@ func ReadLinks(filename string) ([]string, error) {
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
 		link := scanner.Text()
-		link = strings.TrimSpace(link) // Убираем лишние пробелы
+		link = strings.TrimSpace(link) //
 
-		// Проверяем, начинается ли ссылка с https://
 		if strings.HasPrefix(link, "https://") {
-			// Если есть https, добавляем порт 443
 			if !strings.Contains(link, ":") {
 				link += ":443"
 			}
 		} else if strings.HasPrefix(link, "http://") {
-			// Если есть http, добавляем порт 80
 			if !strings.Contains(link, ":") {
 				link += ":80"
 			}
 		} else {
-			// Если ссылка не содержит протокол, добавляем http:// и порт 80
 			link = "http://" + link + ":80"
 		}
 
@@ -51,16 +46,13 @@ func ReadLinks(filename string) ([]string, error) {
 	return links, nil
 }
 
-// Проверка подключения к ссылке с использованием пакета net/http
 func CheckConnection(link string, wg *sync.WaitGroup) {
 	defer wg.Done()
 
-	// Устанавливаем таймаут для HTTP-запроса
 	client := http.Client{
 		Timeout: 3 * time.Second,
 	}
 
-	// Отправляем GET-запрос
 	resp, err := client.Get(link)
 	if err != nil {
 		fmt.Printf("Не удалось подключиться к сайту %s: %v\n", link, err)
@@ -68,7 +60,6 @@ func CheckConnection(link string, wg *sync.WaitGroup) {
 	}
 	defer resp.Body.Close()
 
-	// Проверяем, если статус код ответа успешный
 	if resp.StatusCode == http.StatusOK {
 		fmt.Printf("Успешное подключение к %s\n", link)
 	} else {
@@ -76,10 +67,76 @@ func CheckConnection(link string, wg *sync.WaitGroup) {
 	}
 }
 
-func main() {
-	links, err := ReadLinks("links.txt")
+// Объединение всех файлов вида links*.txt из папки загрузок
+func MergeDownloadedLinks() error {
+	homeDir, err := os.UserHomeDir()
 	if err != nil {
-		fmt.Println("Ошибка:", err)
+		return fmt.Errorf("не удалось найти домашнюю папку: %v", err)
+	}
+	downloadsDir := homeDir + "/Downloads"
+
+	files, err := os.ReadDir(downloadsDir)
+	if err != nil {
+		return fmt.Errorf("не удалось прочитать папку загрузок: %v", err)
+	}
+
+	var allLinks []string
+
+	for _, file := range files {
+		if file.IsDir() {
+			continue
+		}
+
+		name := file.Name()
+		if strings.Contains(strings.ToLower(name), "links") && strings.HasSuffix(name, ".txt") {
+			fullPath := downloadsDir + "/" + name
+			f, err := os.Open(fullPath)
+			if err != nil {
+				fmt.Printf("не удалось открыть файл %s: %v\n", name, err)
+				continue
+			}
+
+			scanner := bufio.NewScanner(f)
+			for scanner.Scan() {
+				line := strings.TrimSpace(scanner.Text())
+				if line != "" {
+					allLinks = append(allLinks, line)
+				}
+			}
+			f.Close()
+		}
+	}
+
+	if len(allLinks) == 0 {
+		return fmt.Errorf("не найдено подходящих файлов links*.txt в папке загрузок")
+	}
+
+	outputFile := "combined_links.txt"
+	out, err := os.Create(outputFile)
+	if err != nil {
+		return fmt.Errorf("не удалось создать файл %s: %v", outputFile, err)
+	}
+	defer out.Close()
+
+	for _, link := range allLinks {
+		_, _ = out.WriteString(link + "\n")
+	}
+
+	fmt.Printf("Объединено %d ссылок в файл %s\n", len(allLinks), outputFile)
+	return nil
+}
+
+func main() {
+
+	err := MergeDownloadedLinks()
+	if err != nil {
+		fmt.Println("Ошибка при объединении ссылок:", err)
+		return
+	}
+
+	links, err := ReadLinks("combined_links.txt")
+	if err != nil {
+		fmt.Println("Ошибка при чтении ссылок:", err)
 		return
 	}
 
