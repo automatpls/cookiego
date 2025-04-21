@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"net/http"
+	"net/url"
 	"os"
 	"strings"
 	"sync"
@@ -21,8 +22,7 @@ func ReadLinks(filename string) ([]string, error) {
 
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
-		link := scanner.Text()
-		link = strings.TrimSpace(link) //
+		link := strings.TrimSpace(scanner.Text())
 
 		if strings.HasPrefix(link, "https://") {
 			if !strings.Contains(link, ":") {
@@ -46,12 +46,8 @@ func ReadLinks(filename string) ([]string, error) {
 	return links, nil
 }
 
-func CheckConnection(link string, wg *sync.WaitGroup) {
+func CheckConnection(link string, client *http.Client, wg *sync.WaitGroup) {
 	defer wg.Done()
-
-	client := http.Client{
-		Timeout: 3 * time.Second,
-	}
 
 	resp, err := client.Get(link)
 	if err != nil {
@@ -67,7 +63,6 @@ func CheckConnection(link string, wg *sync.WaitGroup) {
 	}
 }
 
-// Объединение всех файлов вида links*.txt из папки загрузок
 func MergeDownloadedLinks() error {
 	homeDir, err := os.UserHomeDir()
 	if err != nil {
@@ -126,8 +121,54 @@ func MergeDownloadedLinks() error {
 	return nil
 }
 
-func main() {
+func CreateHTTPClient() (*http.Client, error) {
+	reader := bufio.NewReader(os.Stdin)
 
+	fmt.Print("Использовать прокси? (y/n): ")
+	useProxyInput, _ := reader.ReadString('\n')
+	useProxy := strings.TrimSpace(strings.ToLower(useProxyInput))
+
+	if useProxy == "y" {
+		fmt.Print("Введите адрес прокси (ip:порт): ")
+		addr, _ := reader.ReadString('\n')
+		addr = strings.TrimSpace(addr)
+
+		fmt.Print("Введите логин (если есть, иначе Enter): ")
+		user, _ := reader.ReadString('\n')
+		user = strings.TrimSpace(user)
+
+		fmt.Print("Введите пароль (если есть, иначе Enter): ")
+		pass, _ := reader.ReadString('\n')
+		pass = strings.TrimSpace(pass)
+
+		var proxyURL string
+		if user != "" && pass != "" {
+			proxyURL = fmt.Sprintf("http://%s:%s@%s", user, pass, addr)
+		} else {
+			proxyURL = fmt.Sprintf("http://%s", addr)
+		}
+
+		parsedURL, err := url.Parse(proxyURL)
+		if err != nil {
+			return nil, fmt.Errorf("неправильный формат прокси: %v", err)
+		}
+
+		transport := &http.Transport{
+			Proxy: http.ProxyURL(parsedURL),
+		}
+
+		return &http.Client{
+			Transport: transport,
+			Timeout:   5 * time.Second,
+		}, nil
+	}
+
+	return &http.Client{
+		Timeout: 5 * time.Second,
+	}, nil
+}
+
+func main() {
 	err := MergeDownloadedLinks()
 	if err != nil {
 		fmt.Println("Ошибка при объединении ссылок:", err)
@@ -140,6 +181,12 @@ func main() {
 		return
 	}
 
+	client, err := CreateHTTPClient()
+	if err != nil {
+		fmt.Println("Ошибка создания клиента:", err)
+		return
+	}
+
 	var wg sync.WaitGroup
 
 	fmt.Println("Список ссылок:")
@@ -147,7 +194,7 @@ func main() {
 	for _, link := range links {
 		wg.Add(1)
 		fmt.Println(link)
-		go CheckConnection(link, &wg)
+		go CheckConnection(link, client, &wg)
 	}
 
 	wg.Wait()
