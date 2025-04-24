@@ -46,21 +46,43 @@ func ReadLinks(filename string) ([]string, error) {
 	return links, nil
 }
 
-func CheckConnection(link string, client *http.Client, wg *sync.WaitGroup) {
+func CheckConnection(link string, client *http.Client, wg *sync.WaitGroup, results chan<- string) {
 	defer wg.Done()
 
 	resp, err := client.Get(link)
 	if err != nil {
-		fmt.Printf("Не удалось подключиться к сайту %s: %v\n", link, err)
+		results <- fmt.Sprintf("Не удалось подключиться к сайту %s: %v\n", link, err)
 		return
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode == http.StatusOK {
-		fmt.Printf("Успешное подключение к %s\n", link)
+		results <- fmt.Sprintf("Успешное подключение к %s\n", link)
+		SaveCookiesToFile(link, resp.Cookies())
 	} else {
-		fmt.Printf("Не удалось подключиться к сайту %s, статус: %d\n", link, resp.StatusCode)
+		results <- fmt.Sprintf("Не удалось подключиться к сайту %s, статус: %d\n", link, resp.StatusCode)
 	}
+}
+
+func SaveCookiesToFile(link string, cookies []*http.Cookie) {
+	var cookieStr []string
+	for _, cookie := range cookies {
+		cookieStr = append(cookieStr, fmt.Sprintf("%s=%s", cookie.Name, cookie.Value))
+	}
+
+	cookiesFile, err := os.OpenFile("cookies.txt", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		fmt.Printf("Ошибка записи куков в файл: %v\n", err)
+		return
+	}
+	defer cookiesFile.Close()
+
+	_, err = cookiesFile.WriteString(fmt.Sprintf("%s %s\n", link, strings.Join(cookieStr, "; ")))
+	if err != nil {
+		fmt.Printf("Ошибка записи куков в файл: %v\n", err)
+	}
+
+	fmt.Printf("Куки для %s: %s\n", link, strings.Join(cookieStr, "; "))
 }
 
 func MergeDownloadedLinks() error {
@@ -190,12 +212,24 @@ func main() {
 	var wg sync.WaitGroup
 
 	fmt.Println("Список ссылок:")
+	for _, link := range links {
+		fmt.Println(link)
+	}
+
+	results := make(chan string, len(links))
 
 	for _, link := range links {
 		wg.Add(1)
-		fmt.Println(link)
-		go CheckConnection(link, client, &wg)
+		go CheckConnection(link, client, &wg, results)
 	}
 
 	wg.Wait()
+	close(results)
+
+	fmt.Println("\nРезультаты подключения и куков:")
+	for result := range results {
+		fmt.Print(result)
+	}
+
+	fmt.Println("Процесс завершен.")
 }
