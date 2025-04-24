@@ -45,44 +45,40 @@ func ReadLinks(filename string) ([]string, error) {
 
 	return links, nil
 }
-
-func CheckConnection(link string, client *http.Client, wg *sync.WaitGroup, results chan<- string) {
+func CheckConnection(link string, client *http.Client, wg *sync.WaitGroup, connResults chan<- string, cookieResults chan<- string) {
 	defer wg.Done()
 
 	resp, err := client.Get(link)
 	if err != nil {
-		results <- fmt.Sprintf("Не удалось подключиться к сайту %s: %v\n", link, err)
+		connResults <- fmt.Sprintf("Не удалось подключиться к сайту %s: %v", link, err)
 		return
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode == http.StatusOK {
-		results <- fmt.Sprintf("Успешное подключение к %s\n", link)
-		SaveCookiesToFile(link, resp.Cookies())
+		connResults <- fmt.Sprintf("Успешное подключение к %s", link)
+		cookieStr := SaveCookiesToFile(link, resp.Cookies())
+		cookieResults <- fmt.Sprintf("Куки для %s: %s", link, cookieStr)
 	} else {
-		results <- fmt.Sprintf("Не удалось подключиться к сайту %s, статус: %d\n", link, resp.StatusCode)
+		connResults <- fmt.Sprintf("Не удалось подключиться к сайту %s, статус: %d", link, resp.StatusCode)
 	}
 }
 
-func SaveCookiesToFile(link string, cookies []*http.Cookie) {
+func SaveCookiesToFile(link string, cookies []*http.Cookie) string {
 	var cookieStr []string
 	for _, cookie := range cookies {
 		cookieStr = append(cookieStr, fmt.Sprintf("%s=%s", cookie.Name, cookie.Value))
 	}
 
+	line := fmt.Sprintf("%s %s\n", link, strings.Join(cookieStr, "; "))
+
 	cookiesFile, err := os.OpenFile("cookies.txt", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if err != nil {
-		fmt.Printf("Ошибка записи куков в файл: %v\n", err)
-		return
-	}
-	defer cookiesFile.Close()
-
-	_, err = cookiesFile.WriteString(fmt.Sprintf("%s %s\n", link, strings.Join(cookieStr, "; ")))
-	if err != nil {
-		fmt.Printf("Ошибка записи куков в файл: %v\n", err)
+	if err == nil {
+		defer cookiesFile.Close()
+		cookiesFile.WriteString(line)
 	}
 
-	fmt.Printf("Куки для %s: %s\n", link, strings.Join(cookieStr, "; "))
+	return strings.Join(cookieStr, "; ")
 }
 
 func MergeDownloadedLinks() error {
@@ -210,26 +206,27 @@ func main() {
 	}
 
 	var wg sync.WaitGroup
+	connResults := make(chan string, len(links))
+	cookieResults := make(chan string, len(links))
 
 	fmt.Println("Список ссылок:")
 	for _, link := range links {
 		fmt.Println(link)
-	}
-
-	results := make(chan string, len(links))
-
-	for _, link := range links {
 		wg.Add(1)
-		go CheckConnection(link, client, &wg, results)
+		go CheckConnection(link, client, &wg, connResults, cookieResults)
 	}
 
 	wg.Wait()
-	close(results)
+	close(connResults)
+	close(cookieResults)
 
-	fmt.Println("\nРезультаты подключения и куков:")
-	for result := range results {
-		fmt.Print(result)
+	fmt.Println("\nРезультаты подключения:")
+	for res := range connResults {
+		fmt.Println(res)
 	}
 
-	fmt.Println("Процесс завершен.")
+	fmt.Println("\nКуки:")
+	for cookie := range cookieResults {
+		fmt.Println(cookie)
+	}
 }
