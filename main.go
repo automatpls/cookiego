@@ -2,14 +2,22 @@ package main
 
 import (
 	"bufio"
+	"context"
 	"fmt"
+	"net"
 	"net/http"
 	"net/url"
 	"os"
 	"strings"
 	"sync"
 	"time"
+
+	"golang.org/x/net/proxy"
 )
+
+type CustomTransport struct {
+	Base http.RoundTripper
+}
 
 func ReadLinks(filename string) ([]string, error) {
 	var links []string
@@ -69,15 +77,12 @@ func SaveCookiesToFile(link string, cookies []*http.Cookie) string {
 	for _, cookie := range cookies {
 		cookieStr = append(cookieStr, fmt.Sprintf("%s=%s", cookie.Name, cookie.Value))
 	}
-
 	line := fmt.Sprintf("%s %s\n", link, strings.Join(cookieStr, "; "))
-
 	cookiesFile, err := os.OpenFile("cookies.txt", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err == nil {
 		defer cookiesFile.Close()
 		cookiesFile.WriteString(line)
 	}
-
 	return strings.Join(cookieStr, "; ")
 }
 
@@ -87,7 +92,6 @@ func MergeDownloadedLinks() error {
 		return fmt.Errorf("не удалось найти домашнюю папку: %v", err)
 	}
 	downloadsDir := homeDir + "/Downloads"
-
 	files, err := os.ReadDir(downloadsDir)
 	if err != nil {
 		return fmt.Errorf("не удалось прочитать папку загрузок: %v", err)
@@ -99,7 +103,6 @@ func MergeDownloadedLinks() error {
 		if file.IsDir() {
 			continue
 		}
-
 		name := file.Name()
 		if strings.Contains(strings.ToLower(name), "links") && strings.HasSuffix(name, ".txt") {
 			fullPath := downloadsDir + "/" + name
@@ -108,7 +111,6 @@ func MergeDownloadedLinks() error {
 				fmt.Printf("не удалось открыть файл %s: %v\n", name, err)
 				continue
 			}
-
 			scanner := bufio.NewScanner(f)
 			for scanner.Scan() {
 				line := strings.TrimSpace(scanner.Text())
@@ -138,7 +140,15 @@ func MergeDownloadedLinks() error {
 	fmt.Printf("Объединено %d ссылок в файл %s\n", len(allLinks), outputFile)
 	return nil
 }
+func (t *CustomTransport) RoundTrip(req *http.Request) (*http.Response, error) {
+	req.Header.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36")
+	req.Header.Set("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8")
+	req.Header.Set("Accept-Encoding", "gzip, deflate, br")
+	req.Header.Set("Accept-Language", "en-US,en;q=0.9")
+	req.Header.Set("Connection", "keep-alive")
 
+	return t.Base.RoundTrip(req)
+}
 func CreateHTTPClient() (*http.Client, error) {
 	reader := bufio.NewReader(os.Stdin)
 
@@ -146,7 +156,13 @@ func CreateHTTPClient() (*http.Client, error) {
 	useProxyInput, _ := reader.ReadString('\n')
 	useProxy := strings.TrimSpace(strings.ToLower(useProxyInput))
 
+	transport := &http.Transport{}
+
 	if useProxy == "y" {
+		fmt.Print("Введите тип прокси (1 - HTTP, 2 - SOCKS5): ")
+		proxyTypeInput, _ := reader.ReadString('\n')
+		proxyType := strings.TrimSpace(proxyTypeInput)
+
 		fmt.Print("Введите адрес прокси (ip:порт): ")
 		addr, _ := reader.ReadString('\n')
 		addr = strings.TrimSpace(addr)
@@ -171,18 +187,29 @@ func CreateHTTPClient() (*http.Client, error) {
 			return nil, fmt.Errorf("неправильный формат прокси: %v", err)
 		}
 
-		transport := &http.Transport{
-			Proxy: http.ProxyURL(parsedURL),
+		if proxyType == "2" {
+			var auth *proxy.Auth
+			if user != "" && pass != "" {
+				auth = &proxy.Auth{
+					User:     user,
+					Password: pass,
+				}
+			}
+
+			dialer, err := proxy.SOCKS5("tcp", addr, auth, proxy.Direct)
+			if err != nil {
+				return nil, fmt.Errorf("не удалось подключиться к SOCKS5: %v", err)
+			}
+			transport.DialContext = func(ctx context.Context, network, addr string) (net.Conn, error) {
+				return dialer.Dial(network, addr)
+			}
+		} else {
+			transport.Proxy = http.ProxyURL(parsedURL)
 		}
-
-		return &http.Client{
-			Transport: transport,
-			Timeout:   5 * time.Second,
-		}, nil
 	}
-
 	return &http.Client{
-		Timeout: 5 * time.Second,
+		Transport: &CustomTransport{Base: transport},
+		Timeout:   time.Second * 10,
 	}, nil
 }
 
@@ -215,16 +242,13 @@ func main() {
 		wg.Add(1)
 		go CheckConnection(link, client, &wg, connResults, cookieResults)
 	}
-
 	wg.Wait()
 	close(connResults)
 	close(cookieResults)
-
 	fmt.Println("\nРезультаты подключения:")
 	for res := range connResults {
 		fmt.Println(res)
 	}
-
 	fmt.Println("\nКуки:")
 	for cookie := range cookieResults {
 		fmt.Println(cookie)
