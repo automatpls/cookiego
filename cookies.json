@@ -1,0 +1,522 @@
+[
+  {
+    "url": "https://panel.proxyline.net/register/",
+    "cookies": {
+      "csrftoken": "It8N3piuXmVZJ3V9XkYuNFoxy0ZjmLC6ejcXFbl5GAXuhcgaEdkkQ43PlijuUYQA",
+      "lang": "en"
+    }
+  },
+  {
+    "url": "https://panel.proxyline.net/reset/",
+    "cookies": {
+      "csrftoken": "ZerNZvjObJQeRgcmS0Kq85PcjZWe1Rp86woZhlkbLJACRQIAbZzylshdGa4uo4tD",
+      "lang": "en"
+    }
+  },
+  {
+    "url": "https://panel.proxyline.net/login/#",
+    "cookies": {
+      "csrftoken": "ylYmSVjZe6ULAOfQyX7IXl7ubG8XDcBJkEyfPHe6oj8KrImmphubxUreAmL4sTtb",
+      "lang": "en"
+    }
+  },
+  {
+    "url": "https://id.vk.com/account/#/main?recommendation=1",
+    "cookies": {}
+  },
+  {
+    "url": "https://market.yandex.ru/catalog",
+    "cookies": {
+      "_yasc": "sKbj1iBprrU27kbbYofon03D9SkybU2hWQn3StbjDwdE7Vyr5z1QuT7Fcup93Hkjj7Q=",
+      "cmp-merge": "true",
+      "exp_flags": "",
+      "i": "vvZ5RTg4GTIgyiubn2gqFsZqJ1yHDxy4cyOEBHEP8XnSAwCEyMOAgQuwod1S2To9rdy4e6QCVHCCUkPmrrGBpxr+oi4=",
+      "market_cpa": "0",
+      "reviews-merge": "true",
+      "skid": "8250041711745937421",
+      "src-baobab-event-id": "0",
+      "src-pof": "0",
+      "src-utm-source-service": "0",
+      "src-wprid": "0",
+      "visits": "1745937421-1745937421-1745937421",
+      "yandexuid": "3656514791745937421",
+      "yashr": "675022551745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/kolesoprizov?track=menu",
+    "cookies": {
+      "_yasc": "GfO13aX6YYGNteLIO58we/u28StsxwalM1jiA3E076LDLp0liQ1SfWNb5OZR/AakZkI9",
+      "cmp-merge": "true",
+      "exp_flags": "",
+      "i": "s/eMfCBfA1MtGGT/ByWszhSVHXJrLSKG7aURPmnX1s+9x7eI1MGVfbHo/YzDHgAx/QsRYSt8BniyiSEHisA3VdHH2Ic=",
+      "market_cpa": "0",
+      "reviews-merge": "true",
+      "skid": "7181135811745937421",
+      "src-baobab-event-id": "0",
+      "src-pof": "0",
+      "src-utm-source-service": "0",
+      "src-wprid": "0",
+      "visits": "1745937421-1745937421-1745937421",
+      "yandexuid": "4837239821745937421",
+      "yashr": "4598629911745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/kolesoprizov?track=menu",
+    "cookies": {
+      "_yasc": "egQo0ITq5MJDpv0DIrvPUNVrlWgDgF1p2/GRCT9lHMs6+zI2dkKz8v/PvhrcmwI1sl92",
+      "cmp-merge": "true",
+      "exp_flags": "",
+      "i": "1c6BDetP4zCEJOjKRRodlaODndss+9vd8waWCZJyJUqcHANBA3OGa5oEAU6W8LzM8tjk+ShB1Nd0C/WpNmV80g/xhHc=",
+      "market_cpa": "0",
+      "reviews-merge": "true",
+      "skid": "9287799601745937421",
+      "src-baobab-event-id": "0",
+      "src-pof": "0",
+      "src-utm-source-service": "0",
+      "src-wprid": "0",
+      "visits": "1745937421-1745937421-1745937421",
+      "yandexuid": "6510493571745937421",
+      "yashr": "5587912021745937421"
+    }
+  },
+  {
+    "url": "https://www.twitch.tv/directory/following",
+    "cookies": {
+      "server_session_id": "7217b07b13194b26a49c0097b3821cc6",
+      "twitch.lohp.countryCode": "NO",
+      "unique_id": "ODnnORYU1unjvrTa4gCWpDZqReQ6vGmm",
+      "unique_id_durable": "ODnnORYU1unjvrTa4gCWpDZqReQ6vGmm"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/catalog",
+    "cookies": {
+      "_yasc": "Z5738zztxxGlLhlX9jUGWYHN9vx8Z2gwMIy0gq1JiWsyKiNT0Lt7Lr629GVKq7aL3bo=",
+      "cmp-merge": "true",
+      "exp_flags": "",
+      "i": "bzxY3Q1G4r8tnQJ3y9nlzqOL39ICGt9Uf0Cq/Cy6BL5CFCggq6knLqf3a/38FYgx/vLgRjHMlmVK5bOWU7N9LRQw8xk=",
+      "market_cpa": "0",
+      "reviews-merge": "true",
+      "skid": "2365173551745937421",
+      "src-baobab-event-id": "0",
+      "src-pof": "0",
+      "src-utm-source-service": "0",
+      "src-wprid": "0",
+      "visits": "1745937421-1745937421-1745937421",
+      "yandexuid": "7467059341745937421",
+      "yashr": "8129836891745937421"
+    }
+  },
+  {
+    "url": "https://ya.ru/",
+    "cookies": {
+      "_yasc": "iq4INPG+eks+vwvkbhZwjAHxXkhdWNWmGEOCFEkZyXmwSpzVMIYhzNHVcjcaoMLHIgQ=",
+      "bh": "YI3Iw8AGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "LHowqrXaKRZEtqdbkAN+SOC/j2u+/xTNWfvP85kwVNUQiUQppSJxUuQ3tY3bYxhwxmNQ58aeF4HdHZAMnTYwfucDHeE=",
+      "receive-cookie-deprecation": "1",
+      "yandexuid": "3768807821745937421",
+      "yashr": "6050254221745937421"
+    }
+  },
+  {
+    "url": "https://id.vk.com/account?ref_app=6287487\u0026flow_service=account_actions\u0026flow_type=warning_level_2",
+    "cookies": {}
+  },
+  {
+    "url": "https://auto.ru/promo/free-report/?utm_source=yandex_market\u0026utm_medium=cpm\u0026utm_campaign=none_allweb_history_promo_market_moskva-msk_1706\u0026erid=nyi26TK8Sq2EHekN43Cuj6HgNdNzFRGq",
+    "cookies": {
+      "_yasc": "0b30go1zTX4EBhdBpMdveo4P0owfU/gGplgMSmpmDKuAY8WiVX8wxOk+RYdAGVRN5w==",
+      "bh": "YI3Iw8AGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "jKsFsHAg/bg+IWGqO0MQJYTGMNslUU5lK69xp4x+GqLjdteBxqiopiEkI2E/foCvUYlMCfqBDWnz+mjROfsJJzWuyFo=",
+      "is_gdpr": "0",
+      "is_gdpr_b": "CKj9UhDJvQI=",
+      "receive-cookie-deprecation": "1",
+      "yandexuid": "4045581511745937421",
+      "yashr": "9700154111745937421"
+    }
+  },
+  {
+    "url": "https://www.twitch.tv/",
+    "cookies": {
+      "server_session_id": "d975551ffde84d4bb73f2ac76be8e84b",
+      "twitch.lohp.countryCode": "NO",
+      "unique_id": "opVyfpLbZc8WZXtmFvQNXAwK9VLNnqkq",
+      "unique_id_durable": "opVyfpLbZc8WZXtmFvQNXAwK9VLNnqkq"
+    }
+  },
+  {
+    "url": "https://ya.ru/",
+    "cookies": {
+      "_yasc": "r+QB6yLrCUQaenPReTo7A/oOt5T1j9Lq+qAVNbkNjmtI8UvZ+6G3jsKH3KbeHuyTG38=",
+      "bh": "YI3Iw8AGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "w/oGuqqpgTXoXhinstRax7tUORK7I8X9Lk0skiOUee2obIxAgf5zCavqPRqN7Rn7BJ92F4u58h/9/uvwnKht+9lTMXE=",
+      "receive-cookie-deprecation": "1",
+      "yandexuid": "1877856041745937421",
+      "yashr": "5230969111745937421"
+    }
+  },
+  {
+    "url": "https://vk.com/support?act=home",
+    "cookies": {
+      "remixir": "DELETED",
+      "remixlang": "3",
+      "remixlgck": "21ad47d5870a6efaef",
+      "remixstid": "27632413_6iSxhwhKKEbWYpLxkCdTEBx3oa6QzSUQ9SMzNA2q9CP",
+      "remixstlid": "9065808536116814050_z9ef4lZ55zcpZGjmqSvhcUz0xQSWLD1EzxyPOSaIpsX"
+    }
+  },
+  {
+    "url": "https://www.twitch.tv/directory",
+    "cookies": {
+      "server_session_id": "488ac5e961734fa895d74a77b7397a52",
+      "twitch.lohp.countryCode": "NO",
+      "unique_id": "rRTuwqb3yNqQmPOxA2yM1BHbbcEgFcF2",
+      "unique_id_durable": "rRTuwqb3yNqQmPOxA2yM1BHbbcEgFcF2"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/",
+    "cookies": {
+      "_yasc": "OnFYXVGJmzP29q2GYXTO49dvMJVjrodll1Zs5mqmpFrY48qjBMUXgZ1Dhec0MzsT3xcP1wY=",
+      "i": "LXVg3zm2MGA6UY09Ek2XSk9ju5D1P0C3W2eA4v23JzYE4Il61NoXpT9ih73A/n3oUU4XRFMh0cVLiVY3wEhVbD7QgMw=",
+      "yandexuid": "3760945691745937421",
+      "yashr": "7089473271745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/my/cart",
+    "cookies": {
+      "_yasc": "acmQRBPfHLo/hsU8kHzJQrJ7hZ9cDnX3bMvIIf3PUM/AS7H2ZUaJauA0AOleHo+dlh3nsbU=",
+      "i": "qBKkum9KmTM/GXI9G9bqfo2b6BLoj4jJXfeK5EHSeqDp9JCHAgkkN+fbDPdOo98LFZNF/mQxb9v7XL/5UVXYEMF2Tdo=",
+      "yandexuid": "5537860511745937421",
+      "yashr": "9273577241745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/special/trade_ha_kitfort_mart?businessId=920840\u0026fromSins=1\u0026erid=nyi26TK8Sq2EHekN44hKMdVuz39Z75NM",
+    "cookies": {
+      "_yasc": "KAkXSdRM3IVMVyLUdSJ/ouxED+BUOlklunuSv/Zlpe5CLLjc5NT9gbMWBS1dMPq2zabkb5s=",
+      "i": "Egc8J9jbkzEgTb6IeOmtMkxq8hw+JHH6NZdHWATPmdx86RkY6BTAJsGONPj2dYWD/huxw3V2IHNd3H3IBVOI2UTWI48=",
+      "yandexuid": "7409878601745937421",
+      "yashr": "218092291745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/special/fashion_dep",
+    "cookies": {
+      "_yasc": "x61W3SPLSLYmv4yM6H3/9M6pXFJ29P2DTL/unZeQymN5HYig5TXOpAM9EtD0B/wrHhBhpg==",
+      "i": "tI26+MmtTdQ2xrBKY41v9dKOjSGN7AUlTMhAwrM39wIWge/ZnWXLwR5I+odlSANMS5Q8i35yMj3+udcepiJx9xdbONk=",
+      "yandexuid": "595211871745937421",
+      "yashr": "9207129391745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/special/crossborder_dep",
+    "cookies": {
+      "_yasc": "3Ei2/5+E85CdDtl00g+hcbdeBBwx6MwecDtrhoip7Fctf1CDcFvovH3qJYUaWi+QHYS6QRI=",
+      "i": "8y3mz/9L4bU6w7q8DpH0mo+abbl9+QKL7eCxuBC+8iHmkNt9zjxj4AI9K9pvwRl/JnHfWcNGl83IgfpPbP4i5N6yg4U=",
+      "yandexuid": "740994121745937421",
+      "yashr": "270291091745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/special/ultima",
+    "cookies": {
+      "_yasc": "wcr/kSL8mkI8L0rC1GPamLeMpKtsmrgwyh5DFyxMRv8hqLG26d2+wl7ivgImjzsjn+yhcCo=",
+      "i": "ep0YgKsaBG4MtLiTFkAFoV8mzz7nvuotlWsBjnKaU4xi5nM3uAIc6UJsUKPS/8ruBvYiKNcdsrHP/U3801KNKbHFEVc=",
+      "yandexuid": "6196513641745937421",
+      "yashr": "5763990591745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/special/remont",
+    "cookies": {
+      "_yasc": "1hxYbMXaNUS+A6s2PEMXvQtTuB4lbbHtjiHWOctsViUblo7eZoRf84ld9yGz2VZoxHl2cA==",
+      "i": "JWEImNG9TNDqmZFrNNgzDwk3LPvL0iDgavoEZjF/SYgcHCSWs305KzkeI0K3HPLGY2H07hdvyHguyMbVVdjo+valZSA=",
+      "yandexuid": "3949254981745937421",
+      "yashr": "7188074891745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/special/fashion_dep",
+    "cookies": {
+      "_yasc": "0cM6AGZSmVX7X1+F2GyvM85lxpdytjlghVjF4/akMvwRH75Zb4EpLxGpYmCDDkN5iFQIs0E=",
+      "i": "CvgxMW+hfJDitVDx1YkaVN1Dpjuzfw7v90EJb/rMazvgNRJEMl12mDrLbC9VsF05L6nCwEREqjvUuF4hr/MsJcWrdp0=",
+      "yandexuid": "2527272571745937421",
+      "yashr": "5626149641745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/special/split",
+    "cookies": {
+      "_yasc": "jPsd8H9FoBx4I0I29D6IQbhpTjoeMdPH1HPt9w97RMrHD4PcPTxyPXNbIlnWvnIFKMhJUQ==",
+      "i": "HCQ+i/xC750QHULFGRv8fBqe4LHxEZQQB2nqsjvI0BSqJMgswKPnYepkccBEHYHlTn7eZ+g/6e+Y+42lu2qNFOCo0Kw=",
+      "yandexuid": "1658803301745937421",
+      "yashr": "4326266821745937421"
+    }
+  },
+  {
+    "url": "https://vk.com/wholenewgame",
+    "cookies": {
+      "remixir": "DELETED",
+      "remixlang": "3",
+      "remixlgck": "da7a3ff09af3504fe8",
+      "remixstid": "1763522236_R2WlMF6PWCfyCNK29eZTUkJVedC64IX0ggTnxrY8MfL",
+      "remixstlid": "9093815296299524940_h3IgVqsekUkkDKNCfEe0I5bwUUHWE5cfXAnb5NwTtws",
+      "remixua": "43%7C-1%7C-1%7C1766355695"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/my/cart",
+    "cookies": {
+      "_yasc": "ApLEDbWyrxSmMOBOhTBCh2zeVo4MDexwSTRAPaUkGLRzX9W0+Zeh7PfY/NJ0hLWRMeR3gKo=",
+      "i": "5kQQ4ByAG0KU062ZimhumEbQTTKpvWSRGOoBzrSSf7UOEQbYpgpqpGKrdu+1Ooom4jqTTgDEKTQeZgLon2Ir+c6lESk=",
+      "yandexuid": "1180054001745937421",
+      "yashr": "7626008981745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/my/orders?track=menu",
+    "cookies": {
+      "_yasc": "vLYxRkeyv/a3GMNxMwG26amWb9dlzSa2aZXXQbJpRz3LFCfBj6zlzkEL0OEzin6d3MDRTQ==",
+      "i": "VF7E9EV092FFHHI4jzNExsVSLPzFOhV76Kja/8XhlX+y+HRqNeMhscAf4FeoxCj8b2pAGjGdo9Zn3brgHvWRSrJrv4k=",
+      "yandexuid": "8495026061745937421",
+      "yashr": "6535590681745937421"
+    }
+  },
+  {
+    "url": "https://vk.com/wholenewgame",
+    "cookies": {
+      "remixir": "DELETED",
+      "remixlang": "3",
+      "remixlgck": "dd109c19a5a054a923",
+      "remixstid": "1130273790_dY4obcpVPA8x72lzp5eeZu2cwLM7pAdgl9YCVbT5zbT",
+      "remixstlid": "9105777982809729254_JyNp7ADGQfH7KrjL9zTih9ZUH3pnvYHQkNCAc4hDpzo",
+      "remixua": "43%7C-1%7C-1%7C1766355695"
+    }
+  },
+  {
+    "url": "https://www.iana.org/domains/example",
+    "cookies": {}
+  },
+  {
+    "url": "https://vk.com/calls",
+    "cookies": {
+      "remixir": "DELETED",
+      "remixlang": "3",
+      "remixstlid": "9091000546533165994_A37JQkovvWGFU82j3LBXrhlJ4KzzbCFgggt5pgppM30"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/special/ultima",
+    "cookies": {
+      "_yasc": "B+H/CigyVNn1vRbie7X3kUrxUL8U+2E6FsEd3rrzyYdR9bTmOtRyjvJs6oc4fz+tll0JfA==",
+      "i": "+CofDLDDZpXie2cbIxTKjM36wxG6aL/MZMZgFD3bxc/dNEWq9wneEG2XAA3hk8GbXPOx97mBY9MEiH1o6W4i3Dbhmqg=",
+      "yandexuid": "3952717911745937421",
+      "yashr": "6941459311745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/my/wishlist?track=head",
+    "cookies": {
+      "_yasc": "hX4tAJj1I6gR0z14gXGIM4X2/+eHkOWP7e7Dadg0DzPjZeeYZCEJBP9I3NWNLiT3zTNn/9o=",
+      "i": "eJs/AzOMWdZ6Kp2AT7zVmdDor71OsIU8BmK5ooKe2k4ArhZq3yvdQzQdi7b5/pZnzXZvN+h+GvKnhquTkqpRpdZ1Gas=",
+      "yandexuid": "1808635841745937421",
+      "yashr": "4487756601745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/catalog--tovary-dlia-doma/54422",
+    "cookies": {
+      "_yasc": "C8Em92hWSwBUuk06bJGvyrMkVRBi6LcU2bUjP8ISzPgNg4Ii059MRHST6wXhODnYiLbF9qE=",
+      "i": "2tM3ZvGgWD6NItyuzHsqr3A27cA0icu0VTzWZr4Kj+HtZLvJv6EJCoq0LfTqCfppT3t8oickwxdxIwT4SyKdQRHQCX0=",
+      "yandexuid": "6203099731745937421",
+      "yashr": "3257940611745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/special/crossborder_dep",
+    "cookies": {
+      "_yasc": "9UZQMK3lfUXjcBHfGwxdKC6CgSowYKoOYCRgexp3yHonBiU+W4FYVFE5j2qIaT+UZA6IJw==",
+      "i": "yhGofP/+9PL36SUUaBilX+9uvu9xa7SF08t9syO1ftrm13Z3H3OHByO9oBwJQL386ZPa8TML63qhYLW4S6XjhUzO2Ik=",
+      "yandexuid": "1415517141745937421",
+      "yashr": "1084449551745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/my/orders?track=menu",
+    "cookies": {
+      "_yasc": "NF9g6m3iXv+f9v9K1ag34vRIJzIy+wzPJimTPbIvzEg3+26VdLLmzoEZWR189wW/2yiU0A==",
+      "i": "QLVnzJKprmea0/ZLgyYrLvc+U/GQIUEobuOdPInbvHvSXzVSK9PF2xsqNjMM2xzjsGzs11QAMnwI9TcS1AlPfhAKrtI=",
+      "yandexuid": "1433509061745937421",
+      "yashr": "2568049681745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/",
+    "cookies": {
+      "_yasc": "zpprhZvOi4q7oOc/HnyuKfbQvtqZfbTyFhSjNdaGgSo+bB90wH64DQmKzrPEZ6U5jdkjfQ==",
+      "i": "yKTqwmjcIyrnPgZ0ToRL4amvNZuGg3SMwycoPbjtoXPFL8NdngKqsvANFVtWJCv2yiQHjo3YqRlFvS2VD9ogv6jSts4=",
+      "yandexuid": "9874515751745937421",
+      "yashr": "9190137471745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/catalog--tovary-dlia-doma/54422",
+    "cookies": {
+      "_yasc": "9kNF/gN+QTLLKyRjxvF2ESSsNhnCkfBFLRLe1GWXyFm91r9o/J6zUXZBBpR+q5YASTUC2Eg=",
+      "i": "xi3M8iQoKE+ZG0hJ0Hd5hUevEipj0JGs1kCD8g+vWDVJQtlA5/mcYz/PvVdd9T12/BultKxnpCJe6rz38DPj0psGpM0=",
+      "yandexuid": "8247506921745937421",
+      "yashr": "8675870701745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/my/wishlist?track=head",
+    "cookies": {
+      "_yasc": "Zp5pbIs5K9mc1IW9iTQwjT+2yEBAeqEJjcjYMhpfw/SjDwCg9wClsom+Gv6feZvPWySDTOk=",
+      "i": "OLMVEsUsRz3jfeZFWeqqXpez13LqIYlDif2lKyRsAg08W2XmFxJ0RjNqOzcp5PfrdnGH0OG5DacBDYCiuiYzenKttqo=",
+      "yandexuid": "9296407001745937421",
+      "yashr": "368222621745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/special/split",
+    "cookies": {
+      "_yasc": "Kgod0kK79QVwkS6gwni9ZfRsuXM2nadwSDG+IVBlFgywyAlI33ir9WLWHBGFqQF8wf0FJg==",
+      "i": "0h6SpPSxlwqOPuo7UQPLYQRpX1kFX1gf9pRqtJFC39vf/B8EYaWyeYw2jrBOg4WTl9Q3s87q2JbUsLYEJXHaarEd2jI=",
+      "yandexuid": "465771121745937421",
+      "yashr": "8635930761745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/special/remont",
+    "cookies": {
+      "_yasc": "A6AhQBagLI9DmqOVHCAzPadtwDPHsXN2iSXkgJ2fhqHHY74Bwl3WXwmhrs8U4h8O52vgpiE=",
+      "i": "q7knUtNrNY8fn58XHQ14sZVXjaY6E61VnuuodA6eoudOFoMoQo4lqsH0fXw+x4zYyHaxmXnROFyo3uwnpA1dgdRPufM=",
+      "yandexuid": "6256378451745937421",
+      "yashr": "5279284741745937421"
+    }
+  },
+  {
+    "url": "https://login.vk.com/?act=logout\u0026hash=f5f4ec8f17defa7a70\u0026_origin=https%3A%2F%2Fvk.com\u0026lrt=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU\u0026reason=tn",
+    "cookies": {
+      "remixir": "DELETED",
+      "remixlang": "3",
+      "remixlgck": "ddd01512f2b5562bbb",
+      "remixstid": "373807718_tdEe8zip1uJZTrF8vPzAbazO4IteC1nQumHZL2AceVP",
+      "remixstlid": "9087904321788939393_VjwzU7m4QfoWykhzEsM8zEpL8CTE7Il1C0oPraMV1w0",
+      "remixua": "43%7C-1%7C215%7C1766355695"
+    }
+  },
+  {
+    "url": "https://vk.com/settings?act=payments",
+    "cookies": {
+      "remixir": "DELETED",
+      "remixlang": "3",
+      "remixlgck": "b8b33731a984889e38",
+      "remixstid": "1806678315_Bi60ndoIAK75ZFk7NZaN6UYoxEJwXbUJQ5zC2giHO54",
+      "remixstlid": "9066934436024199434_tZe04DXanrdZdKcosv9LUtw3tof9zC66S8gZXOdCzew",
+      "remixua": "43%7C-1%7C215%7C1766355695"
+    }
+  },
+  {
+    "url": "https://vk.com/music",
+    "cookies": {
+      "remixir": "DELETED",
+      "remixlang": "3",
+      "remixlgck": "68a981361b505eb7cd",
+      "remixstid": "1528979604_XTAVjiydO3MAOGW25ywZZfEzm84Q0PhIzIhYbXJKP2T",
+      "remixstlid": "9089030221695992377_6sBFTkgXH4FuENzM8A2AnK64LZx5H64Oyls0g2QmhDP",
+      "remixua": "43%7C-1%7C215%7C1766355695"
+    }
+  },
+  {
+    "url": "https://vk.com/settings",
+    "cookies": {
+      "remixir": "DELETED",
+      "remixlang": "3",
+      "remixlgck": "95c5e26d33b1ec704f",
+      "remixstid": "75578471_jqymHCKEP1SeFhfZbfBAGlLoBdzkl0QixMBY1Lz6FSs",
+      "remixstlid": "9097192996020760426_3W5cZBpjvZZWiIe2CRHHpfjXn9W5ZdEwEIMzoZf1waL",
+      "remixua": "43%7C-1%7C215%7C1766355695"
+    }
+  },
+  {
+    "url": "https://vk.com/feed",
+    "cookies": {
+      "remixir": "DELETED",
+      "remixlang": "3",
+      "remixlgck": "ed0faaef0e40f8e6cc",
+      "remixstid": "0_3mnZmDXyiM7vdVeERZugIbPfi1fl0DrWyvyhuS7zZXH",
+      "remixstlid": "9105637245322073577_K06hHCxK5PLwERjKl9WGe3teTAZEpX0vwIz6z4ArVz4",
+      "remixua": "43%7C-1%7C215%7C1766355695"
+    }
+  },
+  {
+    "url": "https://vk.com/im",
+    "cookies": {
+      "remixir": "DELETED",
+      "remixlang": "3",
+      "remixlgck": "abdac94ef6f86d0c26",
+      "remixstid": "0_3mnZmDXyiM7vdVeERZugIbPfi1fl0DrWyvyhuS7zZXH",
+      "remixstlid": "9120555419087581145_WgdxLhEqSRmkaoHPSAkyZ7yvLwnNcF0ipfzrOazthBs",
+      "remixua": "43%7C-1%7C215%7C1766355695"
+    }
+  },
+  {
+    "url": "https://vk.com/feed",
+    "cookies": {
+      "remixir": "DELETED",
+      "remixlang": "3",
+      "remixlgck": "ebc00659f30a0a2b7a",
+      "remixstid": "675700103_jqmZMo6JWetKNdlehLlBIgFsbBeCNxuygJZZcwPvGZ4",
+      "remixstlid": "9072000985605153606_z05SqkozyVtttkOQk2A07zsCPb315m3lQOOoc57u9zc",
+      "remixua": "43%7C-1%7C215%7C1766355695"
+    }
+  },
+  {
+    "url": "https://vk.com/feed?section=notifications",
+    "cookies": {
+      "remixir": "DELETED",
+      "remixlang": "3",
+      "remixlgck": "376654652a628d8467",
+      "remixstid": "1914687276_LcZKiOHiOKth0t7qXe96JWRb6uNrnJZGm8zsXyvcbjz",
+      "remixstlid": "9061445673978518838_RfOZLh6JOa2H5Oz8au9E5SP2UjzlMPgmEfhjdEKIVyL",
+      "remixua": "43%7C-1%7C215%7C1766355695"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru//favourite-category-link?utm_source=market\u0026utm_medium=suggest",
+    "cookies": {
+      "_yasc": "P5ZeAl4hRNM3FeQpuJ2d6LC8f6HfZth19EXOPRPA35rOP4lPPg4f5EqdVqT/tIan8kY=",
+      "cmp-merge": "true",
+      "exp_flags": "",
+      "i": "lPvJYeZAY3RtWZA4Kg+TC14/5cKoDH/7nNx5l1ycQ1UiqVfqkA2YblqDBgHJVdZWPJSgbGHXY8swX7Gb0yBBnHRbXnE=",
+      "reviews-merge": "true",
+      "skid": "3441553751745937421",
+      "utm_medium": "suggest",
+      "utm_source": "market",
+      "visits": "1745937421-1745937421-1745937421",
+      "yandexuid": "5994373801745937421",
+      "yashr": "189074741745937421"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru//favourite-category-link?utm_source=market\u0026utm_medium=suggest",
+    "cookies": {
+      "_yasc": "l9qHtkXhC59wma41NvAQwBh4mDp30SDPWUF99dMWJB5Lt/UNBUMpkjRnznI6Iy4LCzo=",
+      "cmp-merge": "true",
+      "exp_flags": "",
+      "i": "UT7EKh7hBjVnk3mN3TM5x3e4JJft7UwnehD9O0H+T3ZPDfAdAfM+RrmM9lUNADUF6HDFre6SnRyhERmwoPExvLudQS4=",
+      "reviews-merge": "true",
+      "skid": "18562641745937421",
+      "utm_medium": "suggest",
+      "utm_source": "market",
+      "visits": "1745937421-1745937421-1745937421",
+      "yandexuid": "860507681745937421",
+      "yashr": "6470004011745937421"
+    }
+  }
+]

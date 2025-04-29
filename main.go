@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"context"
+	"encoding/json"
 	"fmt"
 	"net"
 	"net/http"
@@ -15,6 +16,10 @@ import (
 	"golang.org/x/net/proxy"
 )
 
+type CookieEntry struct {
+	URL     string            `json:"url"`
+	Cookies map[string]string `json:"cookies"`
+}
 type CustomTransport struct {
 	Base http.RoundTripper
 }
@@ -53,7 +58,7 @@ func ReadLinks(filename string) ([]string, error) {
 
 	return links, nil
 }
-func CheckConnection(link string, client *http.Client, wg *sync.WaitGroup, connResults chan<- string, cookieResults chan<- string) {
+func CheckConnection(link string, client *http.Client, wg *sync.WaitGroup, connResults chan<- string, cookieResults chan<- string, jsonEntries chan<- CookieEntry) {
 	defer wg.Done()
 
 	resp, err := client.Get(link)
@@ -65,25 +70,50 @@ func CheckConnection(link string, client *http.Client, wg *sync.WaitGroup, connR
 
 	if resp.StatusCode == http.StatusOK {
 		connResults <- fmt.Sprintf("Успешное подключение к %s", link)
-		cookieStr := SaveCookiesToFile(link, resp.Cookies())
-		cookieResults <- fmt.Sprintf("Куки для %s: %s", link, cookieStr)
+		cookieEntry := SaveCookiesToFile(link, resp.Cookies())
+		jsonEntries <- cookieEntry
+		cookieResults <- fmt.Sprintf("Куки для %s: %s", link, strings.Join(getCookieString(cookieEntry.Cookies), "; "))
 	} else {
 		connResults <- fmt.Sprintf("Не удалось подключиться к сайту %s, статус: %d", link, resp.StatusCode)
 	}
 }
 
-func SaveCookiesToFile(link string, cookies []*http.Cookie) string {
+func getCookieString(cookieMap map[string]string) []string {
+	var result []string
+	for k, v := range cookieMap {
+		result = append(result, fmt.Sprintf("%s=%s", k, v))
+	}
+	return result
+}
+func SaveCookiesToFile(link string, cookies []*http.Cookie) CookieEntry {
+	cookieMap := make(map[string]string)
 	var cookieStr []string
 	for _, cookie := range cookies {
 		cookieStr = append(cookieStr, fmt.Sprintf("%s=%s", cookie.Name, cookie.Value))
+		cookieMap[cookie.Name] = cookie.Value
 	}
 	line := fmt.Sprintf("%s %s\n", link, strings.Join(cookieStr, "; "))
+
 	cookiesFile, err := os.OpenFile("cookies.txt", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err == nil {
 		defer cookiesFile.Close()
 		cookiesFile.WriteString(line)
 	}
-	return strings.Join(cookieStr, "; ")
+	return CookieEntry{
+		URL:     link,
+		Cookies: cookieMap,
+	}
+}
+func WriteCookiesJSON(entries []CookieEntry) error {
+	file, err := os.Create("cookies.json")
+	if err != nil {
+		return fmt.Errorf("не удалось создать cookies.json: %v", err)
+	}
+	defer file.Close()
+
+	encoder := json.NewEncoder(file)
+	encoder.SetIndent("", "  ")
+	return encoder.Encode(entries)
 }
 
 func MergeDownloadedLinks() error {
@@ -235,16 +265,20 @@ func main() {
 	var wg sync.WaitGroup
 	connResults := make(chan string, len(links))
 	cookieResults := make(chan string, len(links))
+	jsonEntries := make(chan CookieEntry, len(links))
 
 	fmt.Println("Список ссылок:")
 	for _, link := range links {
 		fmt.Println(link)
 		wg.Add(1)
-		go CheckConnection(link, client, &wg, connResults, cookieResults)
+		go CheckConnection(link, client, &wg, connResults, cookieResults, jsonEntries)
 	}
+
 	wg.Wait()
 	close(connResults)
 	close(cookieResults)
+	close(jsonEntries)
+
 	fmt.Println("\nРезультаты подключения:")
 	for res := range connResults {
 		fmt.Println(res)
@@ -252,5 +286,15 @@ func main() {
 	fmt.Println("\nКуки:")
 	for cookie := range cookieResults {
 		fmt.Println(cookie)
+	}
+	var allEntries []CookieEntry
+	for entry := range jsonEntries {
+		allEntries = append(allEntries, entry)
+	}
+
+	if err := WriteCookiesJSON(allEntries); err != nil {
+		fmt.Println("Ошибка записи cookies.json:", err)
+	} else {
+		fmt.Println("Куки сохранены в cookies.json")
 	}
 }
