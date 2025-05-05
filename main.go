@@ -6,6 +6,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"html/template"
+	"io"
+	"log"
 	"math/rand"
 	"net"
 	"net/http"
@@ -33,10 +35,19 @@ type CustomTransport struct {
 	Base http.RoundTripper
 }
 
+var logger *log.Logger
+
+func LogEvent(message string) {
+	if logger != nil {
+		logger.Println(message)
+	}
+}
+
 func ReadLinks(filename string) ([]string, error) {
 	var links []string
 	file, err := os.Open(filename)
 	if err != nil {
+		LogEvent(fmt.Sprintf("Ошибка открытия файла: %v", err))
 		return nil, fmt.Errorf("ошибка открытия файла: %v", err)
 	}
 	defer file.Close()
@@ -59,8 +70,10 @@ func ReadLinks(filename string) ([]string, error) {
 	}
 
 	if err := scanner.Err(); err != nil {
+		LogEvent(fmt.Sprintf("Ошибка чтения файла: %v", err))
 		return nil, fmt.Errorf("ошибка чтения файла: %v", err)
 	}
+	LogEvent(fmt.Sprintf("Загружено %d ссылок из файла %s", len(links), filename))
 	return links, nil
 }
 
@@ -78,8 +91,10 @@ func CheckConnection(link string, client *http.Client, wg *sync.WaitGroup, connR
 
 	req, err := http.NewRequest("GET", link, nil)
 	if err != nil {
-		connResults <- fmt.Sprintf("Ошибка создания запроса для %s: %v", link, err)
+		msg := fmt.Sprintf("Ошибка создания запроса для %s: %v", link, err)
+		connResults <- msg
 		reportEntries <- HTMLReportEntry{URL: link, Success: false, Message: err.Error()}
+		LogEvent(msg)
 		return
 	}
 
@@ -94,21 +109,28 @@ func CheckConnection(link string, client *http.Client, wg *sync.WaitGroup, connR
 
 	resp, err := client.Do(req)
 	if err != nil {
-		connResults <- fmt.Sprintf("Не удалось подключиться к сайту %s: %v", link, err)
+		msg := fmt.Sprintf("Не удалось подключиться к сайту %s: %v", link, err)
+		connResults <- msg
 		reportEntries <- HTMLReportEntry{URL: link, Success: false, Message: err.Error()}
+		LogEvent(msg)
 		return
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode == http.StatusOK {
-		connResults <- fmt.Sprintf("Успешное подключение к %s", link)
+		msg := fmt.Sprintf("Успешное подключение к %s", link)
+		connResults <- msg
+		LogEvent(msg)
 		cookieEntry := SaveCookiesToFile(link, resp.Cookies())
 		jsonEntries <- cookieEntry
 		cookieResults <- fmt.Sprintf("Куки для %s: %s", link, strings.Join(getCookieString(cookieEntry.Cookies), "; "))
+		LogEvent(fmt.Sprintf("Куки для %s сохранены", link))
 		reportEntries <- HTMLReportEntry{URL: link, Success: true, Message: "Успешное подключение"}
 	} else {
-		connResults <- fmt.Sprintf("Не удалось подключиться к сайту %s, статус: %d", link, resp.StatusCode)
+		msg := fmt.Sprintf("Не удалось подключиться к сайту %s, статус: %d", link, resp.StatusCode)
+		connResults <- msg
 		reportEntries <- HTMLReportEntry{URL: link, Success: false, Message: fmt.Sprintf("HTTP статус: %d", resp.StatusCode)}
+		LogEvent(msg)
 	}
 	time.Sleep(time.Duration(rand.Intn(3)+1) * time.Second)
 }
@@ -143,12 +165,14 @@ func SaveCookiesToFile(link string, cookies []*http.Cookie) CookieEntry {
 func WriteCookiesJSON(entries []CookieEntry) error {
 	file, err := os.Create("OUTPUT/cookies.json")
 	if err != nil {
+		LogEvent(fmt.Sprintf("Ошибка создания cookies.json: %v", err))
 		return fmt.Errorf("не удалось создать cookies.json: %v", err)
 	}
 	defer file.Close()
 
 	encoder := json.NewEncoder(file)
 	encoder.SetIndent("", "  ")
+	LogEvent("Куки сохранены в cookies.json")
 	return encoder.Encode(entries)
 }
 
@@ -175,25 +199,30 @@ func WriteHTMLReport(entries []HTMLReportEntry) error {
 </html>`
 	t, err := template.New("report").Parse(tpl)
 	if err != nil {
+		LogEvent(fmt.Sprintf("Ошибка парсинга шаблона отчета: %v", err))
 		return err
 	}
 
 	f, err := os.Create("OUTPUT/report.html")
 	if err != nil {
+		LogEvent(fmt.Sprintf("Ошибка создания report.html: %v", err))
 		return err
 	}
 	defer f.Close()
+	LogEvent("HTML-отчет сохранен в report.html")
 	return t.Execute(f, entries)
 }
 
 func MergeDownloadedLinks() error {
 	homeDir, err := os.UserHomeDir()
 	if err != nil {
+		LogEvent(fmt.Sprintf("Не удалось найти домашнюю папку: %v", err))
 		return fmt.Errorf("не удалось найти домашнюю папку: %v", err)
 	}
 	downloadsDir := homeDir + "/Downloads"
 	files, err := os.ReadDir(downloadsDir)
 	if err != nil {
+		LogEvent(fmt.Sprintf("Не удалось прочитать папку загрузок: %v", err))
 		return fmt.Errorf("не удалось прочитать папку загрузок: %v", err)
 	}
 	var allLinks []string
@@ -206,7 +235,7 @@ func MergeDownloadedLinks() error {
 			fullPath := downloadsDir + "/" + name
 			f, err := os.Open(fullPath)
 			if err != nil {
-				fmt.Printf("не удалось открыть файл %s: %v\n", name, err)
+				LogEvent(fmt.Sprintf("Не удалось открыть файл %s: %v", name, err))
 				continue
 			}
 			scanner := bufio.NewScanner(f)
@@ -220,18 +249,21 @@ func MergeDownloadedLinks() error {
 		}
 	}
 	if len(allLinks) == 0 {
-		return fmt.Errorf("не найдено подходящих файлов links*.txt в папке загрузок")
+		msg := "Не найдено подходящих файлов links*.txt в папке загрузок"
+		LogEvent(msg)
+		return fmt.Errorf(msg)
 	}
 	outputFile := "combined_links.txt"
 	out, err := os.Create(outputFile)
 	if err != nil {
+		LogEvent(fmt.Sprintf("Не удалось создать файл %s: %v", outputFile, err))
 		return fmt.Errorf("не удалось создать файл %s: %v", outputFile, err)
 	}
 	defer out.Close()
 	for _, link := range allLinks {
 		_, _ = out.WriteString(link + "\n")
 	}
-	fmt.Printf("Объединено %d ссылок в файл %s\n", len(allLinks), outputFile)
+	LogEvent(fmt.Sprintf("Объединено %d ссылок в %s", len(allLinks), outputFile))
 	return nil
 }
 
@@ -272,6 +304,7 @@ func CreateHTTPClient() (*http.Client, error) {
 		}
 		parsedURL, err := url.Parse(proxyURL)
 		if err != nil {
+			LogEvent(fmt.Sprintf("Неправильный формат прокси: %v", err))
 			return nil, fmt.Errorf("неправильный формат прокси: %v", err)
 		}
 		if proxyType == "2" {
@@ -281,6 +314,7 @@ func CreateHTTPClient() (*http.Client, error) {
 			}
 			dialer, err := proxy.SOCKS5("tcp", addr, auth, proxy.Direct)
 			if err != nil {
+				LogEvent(fmt.Sprintf("Не удалось подключиться к SOCKS5: %v", err))
 				return nil, fmt.Errorf("не удалось подключиться к SOCKS5: %v", err)
 			}
 			transport.DialContext = func(ctx context.Context, network, addr string) (net.Conn, error) {
@@ -298,21 +332,38 @@ func CreateHTTPClient() (*http.Client, error) {
 
 func main() {
 	os.MkdirAll("OUTPUT", 0755)
-	err := MergeDownloadedLinks()
+
+	logFile, err := os.OpenFile("OUTPUT/log.txt", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
 	if err != nil {
-		fmt.Println("Ошибка при объединении ссылок:", err)
+		fmt.Println("Ошибка открытия log.txt:", err)
 		return
 	}
+	defer logFile.Close()
+	logger = log.New(io.MultiWriter(logFile), "", log.LstdFlags)
+
+	LogEvent("Программа запущена")
+
+	err = MergeDownloadedLinks()
+	if err != nil {
+		fmt.Println("Ошибка при объединении ссылок:", err)
+		LogEvent("Остановка из-за ошибки объединения ссылок")
+		return
+	}
+
 	links, err := ReadLinks("combined_links.txt")
 	if err != nil {
 		fmt.Println("Ошибка при чтении ссылок:", err)
+		LogEvent("Остановка из-за ошибки чтения ссылок")
 		return
 	}
+
 	client, err := CreateHTTPClient()
 	if err != nil {
 		fmt.Println("Ошибка создания клиента:", err)
+		LogEvent("Остановка из-за ошибки создания клиента")
 		return
 	}
+
 	var wg sync.WaitGroup
 	connResults := make(chan string, len(links))
 	cookieResults := make(chan string, len(links))
@@ -325,6 +376,7 @@ func main() {
 		wg.Add(1)
 		go CheckConnection(link, client, &wg, connResults, cookieResults, jsonEntries, reportEntries)
 	}
+
 	go func() {
 		wg.Wait()
 		close(connResults)
@@ -337,6 +389,7 @@ func main() {
 	for res := range connResults {
 		fmt.Println(res)
 	}
+
 	fmt.Println("\nКуки:")
 	for cookie := range cookieResults {
 		fmt.Println(cookie)
@@ -348,6 +401,7 @@ func main() {
 	}
 	if err := WriteCookiesJSON(allEntries); err != nil {
 		fmt.Println("Ошибка записи cookies.json:", err)
+		LogEvent("Ошибка при записи cookies.json")
 	} else {
 		fmt.Println("Куки сохранены в cookies.json")
 	}
@@ -358,7 +412,9 @@ func main() {
 	}
 	if err := WriteHTMLReport(reportData); err != nil {
 		fmt.Println("Ошибка создания HTML отчета:", err)
+		LogEvent("Ошибка создания HTML отчета")
 	} else {
 		fmt.Println("HTML-отчет сохранен в report.html")
 	}
+	LogEvent("Done")
 }
