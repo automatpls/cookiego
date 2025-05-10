@@ -1,42 +1,120 @@
-2025/05/06 00:37:01 Программа запущена
-2025/05/06 00:37:01 Объединено 18 ссылок в combined_links.txt
-2025/05/06 00:37:01 Загружено 18 ссылок из файла combined_links.txt
-2025/05/06 00:37:03 Успешное подключение к https://www.youtube.com/
-2025/05/06 00:37:03 Куки для https://www.youtube.com/ сохранены
-2025/05/06 00:37:03 Успешное подключение к https://x.com/
-2025/05/06 00:37:03 Куки для https://x.com/ сохранены
-2025/05/06 00:37:03 Успешное подключение к https://market.yandex.ru/catalog
-2025/05/06 00:37:03 Куки для https://market.yandex.ru/catalog сохранены
-2025/05/06 00:37:03 Успешное подключение к https://market.yandex.ru/kolesoprizov?track=menu
-2025/05/06 00:37:03 Куки для https://market.yandex.ru/kolesoprizov?track=menu сохранены
-2025/05/06 00:37:03 Успешное подключение к https://rutracker.org/forum/index.php
-2025/05/06 00:37:03 Успешное подключение к https://market.yandex.ru/special/remont
-2025/05/06 00:37:03 Куки для https://rutracker.org/forum/index.php сохранены
-2025/05/06 00:37:03 Куки для https://market.yandex.ru/special/remont сохранены
-2025/05/06 00:37:03 Успешное подключение к https://market.yandex.ru/special/ultima
-2025/05/06 00:37:03 Куки для https://market.yandex.ru/special/ultima сохранены
-2025/05/06 00:37:03 Успешное подключение к https://market.yandex.ru/my/cart
-2025/05/06 00:37:03 Куки для https://market.yandex.ru/my/cart сохранены
-2025/05/06 00:37:03 Успешное подключение к https://market.yandex.ru/catalog--tovary-dlia-doma/54422
-2025/05/06 00:37:03 Куки для https://market.yandex.ru/catalog--tovary-dlia-doma/54422 сохранены
-2025/05/06 00:37:03 Успешное подключение к https://market.yandex.ru/special/fashion_dep
-2025/05/06 00:37:03 Успешное подключение к https://market.yandex.ru/
-2025/05/06 00:37:03 Успешное подключение к https://market.yandex.ru/special/split
-2025/05/06 00:37:03 Успешное подключение к https://market.yandex.ru/my/wishlist?track=head
-2025/05/06 00:37:03 Успешное подключение к https://market.yandex.ru/my/orders?track=menu
-2025/05/06 00:37:03 Куки для https://market.yandex.ru/my/wishlist?track=head сохранены
-2025/05/06 00:37:03 Куки для https://market.yandex.ru/special/fashion_dep сохранены
-2025/05/06 00:37:03 Куки для https://market.yandex.ru/ сохранены
-2025/05/06 00:37:03 Куки для https://market.yandex.ru/my/orders?track=menu сохранены
-2025/05/06 00:37:03 Куки для https://market.yandex.ru/special/split сохранены
-2025/05/06 00:37:03 Успешное подключение к https://auto.ru/promo/free-report/?utm_source=yandex_market&utm_medium=cpm&utm_campaign=none_allweb_history_promo_market_moskva-msk_1706&erid=nyi26TK8Sq2EHekN43Cuj6HgNdNzFRGq
-2025/05/06 00:37:03 Куки для https://auto.ru/promo/free-report/?utm_source=yandex_market&utm_medium=cpm&utm_campaign=none_allweb_history_promo_market_moskva-msk_1706&erid=nyi26TK8Sq2EHekN43Cuj6HgNdNzFRGq сохранены
-2025/05/06 00:37:03 Успешное подключение к https://market.yandex.ru/special/crossborder_dep
-2025/05/06 00:37:03 Куки для https://market.yandex.ru/special/crossborder_dep сохранены
-2025/05/06 00:37:03 Успешное подключение к https://ya.ru/
-2025/05/06 00:37:03 Куки для https://ya.ru/ сохранены
-2025/05/06 00:37:04 Успешное подключение к https://market.yandex.ru//favourite-category-link?utm_source=market&utm_medium=suggest
-2025/05/06 00:37:04 Куки для https://market.yandex.ru//favourite-category-link?utm_source=market&utm_medium=suggest сохранены
-2025/05/06 00:37:06 Куки сохранены в cookies.json
-2025/05/06 00:37:06 HTML-отчет сохранен в report.html
-2025/05/06 00:37:06 Done
+2025/05/11 01:00:28 Программа запущена
+2025/05/11 01:00:28 Объединено 18 ссылок в combined_links.txt
+2025/05/11 01:00:28 Загружено 18 ссылок из файла combined_links.txt
+2025/05/11 01:00:38 Успешное подключение к https://rutracker.org/forum/index.php
+2025/05/11 01:00:38 Куки для https://rutracker.org/forum/index.php сохранены
+2025/05/11 01:00:38 Успешное подключение к https://market.yandex.ru/catalog
+2025/05/11 01:00:38 Куки для https://market.yandex.ru/catalog сохранены
+2025/05/11 01:00:38 Успешное подключение к https://market.yandex.ru/kolesoprizov?track=menu
+2025/05/11 01:00:38 Куки для https://market.yandex.ru/kolesoprizov?track=menu сохранены
+2025/05/11 01:00:38 Успешное подключение к https://x.com/
+2025/05/11 01:00:38 Куки для https://x.com/ сохранены
+2025/05/11 01:00:38 Успешное подключение к https://www.youtube.com/
+2025/05/11 01:00:38 Куки для https://www.youtube.com/ сохранены
+2025/05/11 01:00:38 Успешное подключение к https://market.yandex.ru/special/split
+2025/05/11 01:00:38 Куки для https://market.yandex.ru/special/split сохранены
+2025/05/11 01:00:38 Успешное подключение к https://market.yandex.ru/my/wishlist?track=head
+2025/05/11 01:00:38 Успешное подключение к https://market.yandex.ru/special/crossborder_dep
+2025/05/11 01:00:38 Успешное подключение к https://market.yandex.ru/
+2025/05/11 01:00:38 Куки для https://market.yandex.ru/ сохранены
+2025/05/11 01:00:38 Куки для https://market.yandex.ru/my/wishlist?track=head сохранены
+2025/05/11 01:00:38 Куки для https://market.yandex.ru/special/crossborder_dep сохранены
+2025/05/11 01:00:38 Успешное подключение к https://market.yandex.ru/special/remont
+2025/05/11 01:00:38 Успешное подключение к https://market.yandex.ru/catalog--tovary-dlia-doma/54422
+2025/05/11 01:00:38 Куки для https://market.yandex.ru/catalog--tovary-dlia-doma/54422 сохранены
+2025/05/11 01:00:38 Куки для https://market.yandex.ru/special/remont сохранены
+2025/05/11 01:00:38 Успешное подключение к https://auto.ru/promo/free-report/?utm_source=yandex_market&utm_medium=cpm&utm_campaign=none_allweb_history_promo_market_moskva-msk_1706&erid=nyi26TK8Sq2EHekN43Cuj6HgNdNzFRGq
+2025/05/11 01:00:38 Куки для https://auto.ru/promo/free-report/?utm_source=yandex_market&utm_medium=cpm&utm_campaign=none_allweb_history_promo_market_moskva-msk_1706&erid=nyi26TK8Sq2EHekN43Cuj6HgNdNzFRGq сохранены
+2025/05/11 01:00:38 Успешное подключение к https://market.yandex.ru/my/cart
+2025/05/11 01:00:38 Куки для https://market.yandex.ru/my/cart сохранены
+2025/05/11 01:00:38 Успешное подключение к https://market.yandex.ru/my/orders?track=menu
+2025/05/11 01:00:38 Куки для https://market.yandex.ru/my/orders?track=menu сохранены
+2025/05/11 01:00:38 Успешное подключение к https://market.yandex.ru/special/fashion_dep
+2025/05/11 01:00:38 Успешное подключение к https://market.yandex.ru/special/ultima
+2025/05/11 01:00:38 Куки для https://market.yandex.ru/special/fashion_dep сохранены
+2025/05/11 01:00:38 Куки для https://market.yandex.ru/special/ultima сохранены
+2025/05/11 01:00:38 Успешное подключение к https://ya.ru/
+2025/05/11 01:00:38 Куки для https://ya.ru/ сохранены
+2025/05/11 01:00:38 Успешное подключение к https://market.yandex.ru//favourite-category-link?utm_source=market&utm_medium=suggest
+2025/05/11 01:00:38 Куки для https://market.yandex.ru//favourite-category-link?utm_source=market&utm_medium=suggest сохранены
+2025/05/11 01:00:41 Куки сохранены в cookies.json
+2025/05/11 01:00:41 HTML-отчет сохранен в report.html
+2025/05/11 01:00:41 Done
+2025/05/11 01:00:58 Программа запущена
+2025/05/11 01:00:58 Объединено 18 ссылок в combined_links.txt
+2025/05/11 01:00:58 Загружено 18 ссылок из файла combined_links.txt
+2025/05/11 01:00:59 Успешное подключение к https://x.com/
+2025/05/11 01:00:59 Запись для https://x.com/, уже существует
+2025/05/11 01:00:59 Куки для https://x.com/ сохранены
+2025/05/11 01:00:59 Успешное подключение к https://rutracker.org/forum/index.php
+2025/05/11 01:00:59 Запись для https://rutracker.org/forum/index.php, уже существует
+2025/05/11 01:00:59 Куки для https://rutracker.org/forum/index.php сохранены
+2025/05/11 01:00:59 Успешное подключение к https://market.yandex.ru/kolesoprizov?track=menu
+2025/05/11 01:00:59 Запись для https://market.yandex.ru/kolesoprizov?track=menu, уже существует
+2025/05/11 01:00:59 Куки для https://market.yandex.ru/kolesoprizov?track=menu сохранены
+2025/05/11 01:01:00 Успешное подключение к https://market.yandex.ru/
+2025/05/11 01:01:00 Запись для https://market.yandex.ru/, уже существует
+2025/05/11 01:01:00 Куки для https://market.yandex.ru/ сохранены
+2025/05/11 01:01:00 Успешное подключение к https://www.youtube.com/
+2025/05/11 01:01:00 Запись для https://www.youtube.com/, уже существует
+2025/05/11 01:01:00 Куки для https://www.youtube.com/ сохранены
+2025/05/11 01:01:00 Успешное подключение к https://market.yandex.ru/special/remont
+2025/05/11 01:01:00 Запись для https://market.yandex.ru/special/remont, уже существует
+2025/05/11 01:01:00 Куки для https://market.yandex.ru/special/remont сохранены
+2025/05/11 01:01:00 Успешное подключение к https://market.yandex.ru/catalog
+2025/05/11 01:01:00 Запись для https://market.yandex.ru/catalog, уже существует
+2025/05/11 01:01:00 Куки для https://market.yandex.ru/catalog сохранены
+2025/05/11 01:01:00 Успешное подключение к https://market.yandex.ru/special/crossborder_dep
+2025/05/11 01:01:00 Запись для https://market.yandex.ru/special/crossborder_dep, уже существует
+2025/05/11 01:01:00 Куки для https://market.yandex.ru/special/crossborder_dep сохранены
+2025/05/11 01:01:00 Успешное подключение к https://market.yandex.ru/my/cart
+2025/05/11 01:01:00 Запись для https://market.yandex.ru/my/cart, уже существует
+2025/05/11 01:01:00 Куки для https://market.yandex.ru/my/cart сохранены
+2025/05/11 01:01:00 Успешное подключение к https://auto.ru/promo/free-report/?utm_source=yandex_market&utm_medium=cpm&utm_campaign=none_allweb_history_promo_market_moskva-msk_1706&erid=nyi26TK8Sq2EHekN43Cuj6HgNdNzFRGq
+2025/05/11 01:01:00 Запись для https://auto.ru/promo/free-report/?utm_source=yandex_market&utm_medium=cpm&utm_campaign=none_allweb_history_promo_market_moskva-msk_1706&erid=nyi26TK8Sq2EHekN43Cuj6HgNdNzFRGq, уже существует
+2025/05/11 01:01:00 Куки для https://auto.ru/promo/free-report/?utm_source=yandex_market&utm_medium=cpm&utm_campaign=none_allweb_history_promo_market_moskva-msk_1706&erid=nyi26TK8Sq2EHekN43Cuj6HgNdNzFRGq сохранены
+2025/05/11 01:01:00 Успешное подключение к https://market.yandex.ru/my/wishlist?track=head
+2025/05/11 01:01:00 Запись для https://market.yandex.ru/my/wishlist?track=head, уже существует
+2025/05/11 01:01:00 Куки для https://market.yandex.ru/my/wishlist?track=head сохранены
+2025/05/11 01:01:00 Успешное подключение к https://market.yandex.ru/special/fashion_dep
+2025/05/11 01:01:00 Запись для https://market.yandex.ru/special/fashion_dep, уже существует
+2025/05/11 01:01:00 Куки для https://market.yandex.ru/special/fashion_dep сохранены
+2025/05/11 01:01:00 Успешное подключение к https://market.yandex.ru/my/orders?track=menu
+2025/05/11 01:01:00 Успешное подключение к https://market.yandex.ru/catalog--tovary-dlia-doma/54422
+2025/05/11 01:01:00 Запись для https://market.yandex.ru/catalog--tovary-dlia-doma/54422, уже существует
+2025/05/11 01:01:00 Куки для https://market.yandex.ru/catalog--tovary-dlia-doma/54422 сохранены
+2025/05/11 01:01:00 Запись для https://market.yandex.ru/my/orders?track=menu, уже существует
+2025/05/11 01:01:00 Куки для https://market.yandex.ru/my/orders?track=menu сохранены
+2025/05/11 01:01:00 Успешное подключение к https://market.yandex.ru/special/split
+2025/05/11 01:01:00 Запись для https://market.yandex.ru/special/split, уже существует
+2025/05/11 01:01:00 Куки для https://market.yandex.ru/special/split сохранены
+2025/05/11 01:01:00 Успешное подключение к https://market.yandex.ru/special/ultima
+2025/05/11 01:01:00 Запись для https://market.yandex.ru/special/ultima, уже существует
+2025/05/11 01:01:00 Куки для https://market.yandex.ru/special/ultima сохранены
+2025/05/11 01:01:00 Успешное подключение к https://ya.ru/
+2025/05/11 01:01:00 Запись для https://ya.ru/, уже существует
+2025/05/11 01:01:00 Куки для https://ya.ru/ сохранены
+2025/05/11 01:01:00 Успешное подключение к https://market.yandex.ru//favourite-category-link?utm_source=market&utm_medium=suggest
+2025/05/11 01:01:00 Запись для https://market.yandex.ru//favourite-category-link?utm_source=market&utm_medium=suggest, уже существует
+2025/05/11 01:01:00 Куки для https://market.yandex.ru//favourite-category-link?utm_source=market&utm_medium=suggest сохранены
+2025/05/11 01:01:03 Кука для URL https://x.com/ уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://rutracker.org/forum/index.php уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://market.yandex.ru/kolesoprizov?track=menu уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://market.yandex.ru/ уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://www.youtube.com/ уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://market.yandex.ru/special/remont уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://market.yandex.ru/catalog уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://market.yandex.ru/special/crossborder_dep уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://market.yandex.ru/my/cart уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://auto.ru/promo/free-report/?utm_source=yandex_market&utm_medium=cpm&utm_campaign=none_allweb_history_promo_market_moskva-msk_1706&erid=nyi26TK8Sq2EHekN43Cuj6HgNdNzFRGq уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://market.yandex.ru/my/wishlist?track=head уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://market.yandex.ru/special/fashion_dep уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://market.yandex.ru/catalog--tovary-dlia-doma/54422 уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://market.yandex.ru/my/orders?track=menu уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://market.yandex.ru/special/split уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://market.yandex.ru/special/ultima уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://ya.ru/ уже существует, пропускаем.
+2025/05/11 01:01:03 Кука для URL https://market.yandex.ru//favourite-category-link?utm_source=market&utm_medium=suggest уже существует, пропускаем.
+2025/05/11 01:01:03 Куки сохранены в cookies.json
+2025/05/11 01:01:03 HTML-отчет сохранен в report.html
+2025/05/11 01:01:03 Done
