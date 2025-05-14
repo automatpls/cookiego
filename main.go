@@ -13,6 +13,9 @@ import (
 	"net/http"
 	"net/url"
 	"os"
+	"os/exec"
+	"path/filepath"
+	"runtime"
 	"strings"
 	"sync"
 	"time"
@@ -288,9 +291,39 @@ func WriteHTMLReport(entries []HTMLReportEntry) error {
 	}
 	defer f.Close()
 	LogEvent("HTML-отчет сохранен в report.html")
-	return t.Execute(f, entries)
+	err = t.Execute(f, entries)
+	if err != nil {
+		return err
+	}
+
+	absPath, err := filepath.Abs("OUTPUT/report.html")
+	if err != nil {
+		LogEvent(fmt.Sprintf("Ошибка получения пути для report.html: %v", err))
+	} else {
+		openReport(absPath)
+	}
+
+	return nil
 }
 
+func openReport(path string) {
+	var cmd *exec.Cmd
+
+	switch runtime.GOOS {
+	case "windows":
+		cmd = exec.Command("rundll32", "url.dll,FileProtocolHandler", path)
+	case "darwin":
+		cmd = exec.Command("open", path)
+	default:
+		cmd = exec.Command("xdg-open", path)
+	}
+
+	if err := cmd.Start(); err != nil {
+		LogEvent(fmt.Sprintf("Не удалось открыть отчет в браузере: %v", err))
+	} else {
+		LogEvent("HTML-отчет открыт в браузере")
+	}
+}
 func MergeDownloadedLinks() error {
 	homeDir, err := os.UserHomeDir()
 	if err != nil {
@@ -483,7 +516,6 @@ func main() {
 	} else {
 		fmt.Println("Куки сохранены в cookies.json")
 	}
-
 	var reportData []HTMLReportEntry
 	for r := range reportEntries {
 		reportData = append(reportData, r)
