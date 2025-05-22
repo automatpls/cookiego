@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"context"
+	"crypto/tls"
 	"encoding/json"
 	"fmt"
 	"html/template"
@@ -393,31 +394,58 @@ func CreateHTTPClient() (*http.Client, error) {
 	useProxyInput, _ := reader.ReadString('\n')
 	useProxy := strings.TrimSpace(strings.ToLower(useProxyInput))
 
-	transport := &http.Transport{}
+	transport := &http.Transport{
+		// TLS config ↓
+		TLSClientConfig: &tls.Config{
+			MinVersion:               tls.VersionTLS12,
+			MaxVersion:               tls.VersionTLS13,
+			InsecureSkipVerify:       false,
+			PreferServerCipherSuites: true,
+			CurvePreferences: []tls.CurveID{
+				tls.CurveP256,
+				tls.X25519,
+			},
+			CipherSuites: []uint16{
+				tls.TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,
+				tls.TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,
+				tls.TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384,
+				tls.TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,
+				tls.TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305,
+				tls.TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305,
+			},
+		},
+	}
+
 	if useProxy == "y" {
 		fmt.Print("Введите тип прокси (1 - HTTP, 2 - SOCKS5): ")
 		proxyTypeInput, _ := reader.ReadString('\n')
 		proxyType := strings.TrimSpace(proxyTypeInput)
+
 		fmt.Print("Введите адрес прокси (ip:порт): ")
 		addr, _ := reader.ReadString('\n')
 		addr = strings.TrimSpace(addr)
+
 		fmt.Print("Введите логин (если есть, иначе Enter): ")
 		user, _ := reader.ReadString('\n')
 		user = strings.TrimSpace(user)
+
 		fmt.Print("Введите пароль (если есть, иначе Enter): ")
 		pass, _ := reader.ReadString('\n')
 		pass = strings.TrimSpace(pass)
+
 		var proxyURL string
 		if user != "" && pass != "" {
 			proxyURL = fmt.Sprintf("http://%s:%s@%s", user, pass, addr)
 		} else {
 			proxyURL = fmt.Sprintf("http://%s", addr)
 		}
+
 		parsedURL, err := url.Parse(proxyURL)
 		if err != nil {
 			LogEvent(fmt.Sprintf("Неправильный формат прокси: %v", err))
 			return nil, fmt.Errorf("неправильный формат прокси: %v", err)
 		}
+
 		if proxyType == "2" {
 			var auth *proxy.Auth
 			if user != "" && pass != "" {
@@ -435,6 +463,7 @@ func CreateHTTPClient() (*http.Client, error) {
 			transport.Proxy = http.ProxyURL(parsedURL)
 		}
 	}
+
 	return &http.Client{
 		Transport: &CustomTransport{Base: transport},
 		Timeout:   time.Second * 10,
