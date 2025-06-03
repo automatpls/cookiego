@@ -1,197 +1,383 @@
 [
   {
+    "url": "https://x.com/",
+    "cookies": {
+      "__cf_bm": "kushrLp7Q9YWbuZong5M0sIDAul2Zss66ilBaokNKrk-1748912051-1.0.1.1-4CF4g8fEjjzrzxXvB70F8Q2KIVU0h6aF1BBRYfg6bUanb67.YdspQRF51cbUolJBR4Ca0cbqrAL90_9QfbmgVxL.wCtr2OFWmyAvnGY5ecA",
+      "ct0": "",
+      "guest_id": "v1%3A174891205137974356"
+    }
+  },
+  {
     "url": "https://rutracker.org/forum/index.php",
     "cookies": {}
   },
   {
-    "url": "https://x.com/",
+    "url": "https://market.yandex.ru/page/weekly",
     "cookies": {
-      "__cf_bm": "ltUdgD1hsTWV1LVAS.eOsU0Qi.aWPow.voomXaAew1w-1747256839-1.0.1.1-LEnsS0HqwyyQQ.XKAizQeRui7PRipMi66o1O__IZu9YboauwcrvjgNqj2u1LSejlkHNOZYYu1vl52vRVOwslmhKfCFwvIwJtgQYRsW2Yl.k",
-      "ct0": "",
-      "guest_id": "v1%3A174725683907916030"
+      "_yasc": "aEczm1IXUKG+lZ5EnxB6zs1mcFOhujO8L9hUxooEznVxOQjhWGCcI8//doD0XMFF+d0=",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "cmp-merge": "true",
+      "exp_flags": "",
+      "i": "GxSXumi14CxDxzz8cHL6fcLbMxOGOXc12KsIlzn2UsRlP16GZkvU1RZHfkzRv4GEJXlXpLCDn8aY/W8TZ6iTwVmbr8Q=",
+      "market_cpa": "0",
+      "reviews-merge": "true",
+      "skid": "9280429101748912051",
+      "src-baobab-event-id": "0",
+      "src-pof": "0",
+      "src-utm-source-service": "0",
+      "src-wprid": "0",
+      "visits": "1748912051-1748912051-1748912051",
+      "yandexuid": "9617576381748912051",
+      "yashr": "9063602231748912051"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/catalog",
+    "cookies": {
+      "_yasc": "CKxp9Aw1R/LoK8pX/ODlPOaIvapCGLieaXiTxHLUBEJt1+Fc5bmcazrwuoIo/fh+NCg=",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "cmp-merge": "true",
+      "exp_flags": "",
+      "i": "tzY2zduUcKvYqz6/5L6PlNU+AtkYAMkY8oE1KyP0+2p86VryMyFOfpiTrcRkIhcQqkCg5AyG4vUMkjWReSZGGfzFBBo=",
+      "market_cpa": "0",
+      "reviews-merge": "true",
+      "skid": "5651083161748912051",
+      "src-baobab-event-id": "0",
+      "src-pof": "0",
+      "src-utm-source-service": "0",
+      "src-wprid": "0",
+      "visits": "1748912051-1748912051-1748912051",
+      "yandexuid": "8151876301748912051",
+      "yashr": "134473471748912051"
     }
   },
   {
     "url": "https://market.yandex.ru/kolesoprizov?track=menu",
     "cookies": {
-      "_yasc": "zN95hoeU0FZIfN0zROOcrJ9xecZp9gJS2EtY4HCxUoHHbtNPP+Gaxos5wQ1YqvO4353Z",
+      "_yasc": "YHe/hqrR8IPflwUBANO/CJWnpchiippacy/EmRXwiIEY8QEZmc8F0gp2g4QfPk6dX+4w",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
       "cmp-merge": "true",
       "exp_flags": "",
-      "i": "vqC/ASXnCvJD+olc4lqZPN98G4hfd/l3G75DgMLvLuUW1Ear8S45EvLhcQy5hYMjvXN/rPakxfmye+vo2pva2+uYi20=",
+      "i": "1z+nJXCDSsWJi39ocuDT3wy2se8XmianCVsaWtbSN7KQHqq3Ob6Q614j+0tH/12fY0MUUQ0KMYK2qDjQ8/tzhl+P5FI=",
       "market_cpa": "0",
       "reviews-merge": "true",
-      "skid": "5574444661747256839",
+      "skid": "3880021101748912051",
       "src-baobab-event-id": "0",
       "src-pof": "0",
       "src-utm-source-service": "0",
       "src-wprid": "0",
-      "visits": "1747256839-1747256839-1747256839",
-      "yandexuid": "7098689181747256839",
-      "yashr": "9904382221747256839"
+      "visits": "1748912051-1748912051-1748912051",
+      "yandexuid": "8672151091748912051",
+      "yashr": "7741843381748912051"
     }
   },
   {
     "url": "https://www.youtube.com/",
     "cookies": {
       "GPS": "1",
-      "VISITOR_INFO1_LIVE": "MjZ-zM2S6Ns",
-      "VISITOR_PRIVACY_METADATA": "CgJSVRIEGgAgHQ%3D%3D",
-      "YSC": "44uRot13vR8",
-      "__Secure-ROLLOUT_TOKEN": "CIv9is21jMzXrAEQk8Xv-e6jjQMYk8Xv-e6jjQM%3D"
+      "VISITOR_INFO1_LIVE": "2An7uWRo4_Q",
+      "VISITOR_PRIVACY_METADATA": "CgJSVRIEGgAgEA%3D%3D",
+      "YSC": "kNyYAwlvIJQ",
+      "__Secure-ROLLOUT_TOKEN": "CLWi4eHogba14AEQjL7MjIXUjQMYjL7MjIXUjQM%3D"
     }
   },
   {
-    "url": "https://market.yandex.ru/catalog",
+    "url": "https://market.yandex.ru/special/originals",
     "cookies": {
-      "_yasc": "jCsZN41aDqEiDYCNcFc4gfLfV1GE4g+iRCUXRF2hq3D6HqkiXEvYgxAezdR4CMEfnrdb",
-      "cmp-merge": "true",
-      "exp_flags": "",
-      "i": "aBTA8nLjFATTXzilrmxjFpyVosuRkczpA/trlEvYw/lPXuU4guh8DjQsdtisOloj3IDgI2Xja/1cA6CvMaokg2K8+2k=",
-      "market_cpa": "0",
-      "reviews-merge": "true",
-      "skid": "5397247671747256839",
-      "src-baobab-event-id": "0",
-      "src-pof": "0",
-      "src-utm-source-service": "0",
-      "src-wprid": "0",
-      "visits": "1747256839-1747256839-1747256839",
-      "yandexuid": "9647576751747256839",
-      "yashr": "7016890621747256839"
-    }
-  },
-  {
-    "url": "https://auto.ru/promo/free-report/?utm_source=yandex_market\u0026utm_medium=cpm\u0026utm_campaign=none_allweb_history_promo_market_moskva-msk_1706\u0026erid=nyi26TK8Sq2EHekN43Cuj6HgNdNzFRGq",
-    "cookies": {
-      "_yasc": "dDNPRgmLD+rZBajJc1z0vDHauDq1m7O03vIHuaHiwGmtWFAZcoc+CLWEcU3bzMXToQ==",
-      "bh": "YIeMlMEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
-      "i": "aIgjSiQWsVo1D2O4rf4wfup+2GB8MBfirDE56/xo1gkzQ5SMamGbLLt+0Ha06LVt0nvEUmVhxMB1/7BB0fGnDx3mbXc=",
-      "is_gdpr": "0",
-      "is_gdpr_b": "CO/qYRC4wAI=",
-      "receive-cookie-deprecation": "1",
-      "yandexuid": "9103476841747256839",
-      "yashr": "384707701747256839"
-    }
-  },
-  {
-    "url": "https://market.yandex.ru/special/remont",
-    "cookies": {
-      "_yasc": "GUebbg35y+XPXc2ocSRGIlZ8pnlnFEVAaJjdcKzv/ilaW9oKRIrSzNOu3kSYbeT9tKCwNA==",
-      "i": "BlpqQfL+9aAn0O9zSOrkFAWJWEoRBtJfe+D92yyAqBhvUAOJrX6Z9FiDZ0nkRGtz9mYyEbbn2Pb8+LinIudpF6S5Kl0=",
-      "yandexuid": "5562869091747256839",
-      "yashr": "2059302851747256839"
-    }
-  },
-  {
-    "url": "https://market.yandex.ru/special/ultima",
-    "cookies": {
-      "_yasc": "1RHdRH02e+CE7j8uDfPHqwuadh2jtRwgShwnS6GdDQHih79HY+o0/jUiakhYsUuOTbIbaQ==",
-      "i": "UXPOY80I696rgqXfPPrieAkwWFiJOBtIqtnRZJC7wU73mRto6IMceSvUKF0NdzIDoKM32bUB0ZsThOUvO74gRNdfyek=",
-      "yandexuid": "5177578811747256839",
-      "yashr": "6084958401747256839"
-    }
-  },
-  {
-    "url": "https://market.yandex.ru/",
-    "cookies": {
-      "_yasc": "kLfJavIeIBkpcbFteJ/Jpi9ewsD3sF8bNEykhMzldrQBRt9prjJyfa8fQl/oa71fdKbJwQ==",
-      "i": "M9M8jX39Xz1/xpRmOsrgjLe6sxwmFZUvQoboiaGQh+8jU7Ue50IHdf2LMYQAyHMsMHsP9aVMRjFQG2cEzBra5QR+ubk=",
-      "yandexuid": "7191073911747256839",
-      "yashr": "6888940341747256839"
-    }
-  },
-  {
-    "url": "https://market.yandex.ru/my/orders?track=menu",
-    "cookies": {
-      "_yasc": "w8PuaoNkbPQNagIq0GKlOInMcvWs9cLWCXRK8kazVzF6zs2qETBUCR+CUNKn91eszUdduw==",
-      "i": "ijXIFv+5bk7vGzg7dpK6dBAPF1Vo72DPXgzIlH3YSKNFfx8fTAyyIO9I0VWgGjbW9D1F2q9txjvOECj0QCz8aJ9rZik=",
-      "yandexuid": "5623352131747256839",
-      "yashr": "9645867391747256839"
-    }
-  },
-  {
-    "url": "https://market.yandex.ru/my/cart",
-    "cookies": {
-      "_yasc": "taxTULFhIljvD6Ri3wYtqQP29vsbe9fd3vFUNoFmmzjZEqrOiG/b1zZxVEKHgvV6tx7u87k=",
-      "i": "ge/OKax6sGX2ME9py87fN3/5aRuoorRlYN7g4VkeD71I8fRtPyts57h/tRwq+NA636cYPaXhxLxpzTXvvYvh6d/6mRU=",
-      "yandexuid": "8767470511747256839",
-      "yashr": "6226910441747256839"
-    }
-  },
-  {
-    "url": "https://market.yandex.ru/special/fashion_dep",
-    "cookies": {
-      "_yasc": "OKG35HX+u0Q0ejIJMVTJ80HuiT+XSRQBLeTdAYj51KX9mkquqvFwFG0KczloimSkGB/Kxg==",
-      "i": "tDZYAt687JCLqDYxSS9RZPpEsV8MapRpQsmTL4kOzGSGdDnsfbH76Z6zYsrRsqQVgRbjg65CD2VbBrmS+jyqflRfMkk=",
-      "yandexuid": "1487143511747256839",
-      "yashr": "6190502921747256839"
+      "_yasc": "MWfY8R+wpAeRXwXCvb4ZmgJ3iCUzLgZ3zYheWT96WvR4+2CSo2GjwzHOsGyOSN/px3geRA==",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "qvni3zeCBUO0+uv55gjZwH03uUjKQg2FRbcLbHpIYFLOQyozSHrpkoMu3jjhO+jAf9gioJlt6JSzDyx390hd/lFrcIA=",
+      "yandexuid": "8846661791748912051",
+      "yashr": "3433236501748912051"
     }
   },
   {
     "url": "https://market.yandex.ru/special/split",
     "cookies": {
-      "_yasc": "6/eFgrIQ75/XWO20CegtRJNwsP3s5W1pFTVnj+tkwhhlc+Oab36iSnYVoay5JhZVwn5qZg==",
-      "i": "kFYXKXZVi9njWWTw2ETaD/hlqrJCWhGnPJ0MDCPzr+t1n1spU5cRtWMdROpIhxaNaS1bB6Mdh/peUTUtMSN19ANl7Mk=",
-      "yandexuid": "7601156841747256839",
-      "yashr": "3298668041747256839"
+      "_yasc": "haGvB9P0uV7fpI4HQ4aGe3sKiZPJK+OC4bbDC7AFUS/cLx/B1Rgp3+2f89j6axb++2/1elQ=",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "WHmr67VcmYnMkRsfYpbCqApneKU0wSP4s68ZVj2Z+uSq1JFeDABBZjmCFLUAkeL8OWt3rxlMu88xI2FpVpkgU766UuQ=",
+      "yandexuid": "4829103501748912051",
+      "yashr": "4854502671748912051"
     }
   },
   {
     "url": "https://market.yandex.ru/special/crossborder_dep",
     "cookies": {
-      "_yasc": "6GZl0sW5yBgrXQm5vTKoy7KDXlggomO4eX5N1gDosjwfPV8aUAy3Xq7RmHjUUJGH9AhCAA==",
-      "i": "Y+GrC0u0tmvMhHNpeB5OdEzrqbegYzBwPrkQRLQtK5OZxr0IhhpL+fqkUwu42kiJntQddMUBbNgkTTJCkPBtyCECze4=",
-      "yandexuid": "6119027351747256839",
-      "yashr": "8008811051747256839"
-    }
-  },
-  {
-    "url": "https://market.yandex.ru/catalog--tovary-dlia-doma/54422",
-    "cookies": {
-      "_yasc": "KNFXC3/zBBvqPLHV0GMATetck9yHBRnf2ihExLPy+x2ua+BF7r8iMCcvJjFvB+uvLcQarQ==",
-      "i": "VH+kMB1HuDHd5Uw/2FCIeQXRCaaXyVUK9lQaPdSejMF67l8zQk850uNR/lcTVv63wMO+A/dhW3VSK/Ig4dkS5rn10sY=",
-      "yandexuid": "2511739211747256839",
-      "yashr": "4093314121747256839"
+      "_yasc": "FEr/TMXFOAaumBFVKI91Nj6LNJuYyEL0S5wve0IuD9axKXdDPrXAqt/5aCwaLBWVB4gL2bc=",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "7oTWzjLINu/dKPFjyEOlFQ3baVENtx5EILvikgmpWt2f8sWjhI0f2B5daV4UBs4Mp8L/SmSP1FN9LRc+t7Wv7NTh0S8=",
+      "yandexuid": "9686970931748912051",
+      "yashr": "3358277091748912051"
     }
   },
   {
     "url": "https://market.yandex.ru/my/wishlist?track=head",
     "cookies": {
-      "_yasc": "oZZVfQM72ZKnqFnkGbf7AVHxaLixl/PohVC7JlhqbjX4b7BuJJ1smHWEFTt6VNb+ouFAQEQ=",
-      "i": "WSjdQAn8xpa4xAswTgyci/dD9agJTdjk0XC1hml2gARcvvf0cHXs/cZE21K1J3qkHJQB5oTiWw9S1okYHDbQcUK0FGs=",
-      "yandexuid": "443419141747256839",
-      "yashr": "6433544251747256839"
+      "_yasc": "iWhN67Mgq9hu5MUp4C0mh73LeAtPFL3rJt0Ij2kk9ih/aj0MrycDJNp0ffyDlJWI9qRkJJI=",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "untTKtcAz67q61Ytw0R1HRPDyI/O1lgLCxSzf14qbti+ecF1s2zvBSsz4hFpqzHTBoBqnF37Ax51XpDc3bY2BJd4ftU=",
+      "yandexuid": "1900622481748912051",
+      "yashr": "3979188241748912051"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/special/remont",
+    "cookies": {
+      "_yasc": "MV8LuFi9C6074uUiY85eIk58k7vU0WKQ1CzHnqO+sO3AWPl1NbSO/YfRHvjW4YzzZ/uQJ0Y=",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "LoO8By3x0Tof5F6OfdT7awYmq32BggNHKvtQI6VzP9fnpCy0r5guMWI66kYOiLA/2cxdy7pwacMYYRGFwj5V+KdcVgg=",
+      "yandexuid": "6322624761748912051",
+      "yashr": "9946729351748912051"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/my/cart",
+    "cookies": {
+      "_yasc": "1OlD3/hyunSZHuZkhPVDvs1wZNOm8eEp75buqyCJsb9AgKZ/mbbpzsmkPE+5gNpdKtdE/g==",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "YnnMYa8G+VwpakcRRU96HAyR3k3Q0wXmwCszt4zYmcFk/24T4RD4OKczNQ45gFug8TlF0epVeqwV8CmJ35t047JNTJw=",
+      "yandexuid": "1423391341748912051",
+      "yashr": "4166963251748912051"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/",
+    "cookies": {
+      "_yasc": "gRMWQYzUISrSGpktKDUqP9nexGLov+b5FVoQuZxz+ZjGg+sxIx8CSw5Nc4RPpgeOWVTEUA==",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "si8PgcSz3cp4hMxBYYk29rRVavXyq7Lky6TZWCWfeYEzqyu23lih4AtQpeqpdZTOtre9jgC73lv5AoFE11wYwhpoDl8=",
+      "yandexuid": "6546371581748912051",
+      "yashr": "6134302311748912051"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/my/orders?track=menu",
+    "cookies": {
+      "_yasc": "dhbErIXZfQv/DPqRjvUrJZ8JsLAGfgeAspEfNAAz9uybXX5UUPcz3BvicJeidYvgWCIKew==",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "HUzam6wqNQQ/+BnHs5UunUQXKufZa4nGNJiHcxspgx7YNj0ikXGPE0GZESLYJPwB29z7ZrYKKrr3elQGEYCVXgf3yfE=",
+      "yandexuid": "4100084761748912051",
+      "yashr": "9398792771748912051"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/special/samsung-galaxy-s24-ultra?businessId=924574\u0026glfilter=7893318%3A153061\u0026hid=91491\u0026fromSins=1\u0026erid=nyi26TK8Sq2EHekNCp3qUZbtHrLSMTg9",
+    "cookies": {
+      "_yasc": "tHHRvZ/Jd+YlR9G8l33hsVVajcBi/3d+Zu7IoX8gBSPJptieLQpHOSFWPcD6kTQJlLybCg==",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "0vDNB5zeohvfo7gNBgTDakIcjQ9kqqWQgrVhwGKD9/l5kZXj8BP1BrIUweqywDKLemhwCK1g7MeCxbAc/dLs7No8RTs=",
+      "yandexuid": "1307687081748912051",
+      "yashr": "2524283731748912051"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/special/ultima",
+    "cookies": {
+      "_yasc": "wRR4PND8v0lNz/yEfEaq+jEkFEDRyge0QvP7jYr/mcCT2+0Ulzo+a8JyMKOVPilc9awgBw==",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "wSmXfzuvtlg7M7Pq3YSh6DRsxqs7Bs+ZxHD2+5D16CW7wladd1wKbHpuFXbjOuKUcRVReNoRu5b7dTbmGnQFMnC8NAw=",
+      "yandexuid": "1941506431748912051",
+      "yashr": "6685883791748912051"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/special/fashion_dep",
+    "cookies": {
+      "_yasc": "LxV0Kp9UAmwaUNqcBlVzlEE1UcqsQNK+j/qUqGaS9prYZtjoolowysXcYm8O5VoH7K+VmQ==",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "9wTFBW5np16s85iFu6JXlv99GN8OV5hDi1C+GLVY17koI8MzDWX49/HAGz1eOjI6M3xzcdi9ZOJJvJuY97BiWNjwAXE=",
+      "yandexuid": "907498421748912051",
+      "yashr": "6540801261748912051"
+    }
+  },
+  {
+    "url": "https://market.yandex.ru/catalog--tovary-dlia-doma/54422",
+    "cookies": {
+      "_yasc": "+mV27SNfsCu4/hLmM/tj0PLhnA6SlBx2xMdgF8yjN562oNZ0YHHitbblgdLdpl+aDj7KRgs=",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "HWBOJQhP1ecqRVBfZz4Di+XCAxHeRyYMjR49puGkEMwTjb0HXA4PDOe+QajHsIWn1DD+K073laU+l9MZkiHg92Zm8HM=",
+      "yandexuid": "7850392251748912051",
+      "yashr": "393002101748912051"
     }
   },
   {
     "url": "https://ya.ru/",
     "cookies": {
-      "_yasc": "/pr/ZJOF80D/BtC2foj+bzK/tRB8BA+Yi35RDnfg526a68TbKu2wtDqhj2qcvlDrSi8=",
-      "bh": "YIeMlMEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
-      "i": "QbE1VAc3ADpOBXItb67VfcSvTRxk06KUBfst076KEwXOcsWWIKFnnz0qTB+BL/OIU+w77UJ8biWYJbgSAg3XtVmy6kA=",
-      "receive-cookie-deprecation": "1",
-      "yandexuid": "1292600041747256839",
-      "yashr": "8066375431747256839"
+      "_yasc": "e6DbrUaJ422Sssd20k3MKOgaARbhR4dDbNftI3i2qNE1Y014t6MOuf54ThN3TC97MJk=",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "lP2zA65XVd55VWZiuVXnjbANpmnLkOKcamJ/QEbpnwk6wLfmbOsl3W56PjvImJNXCtZEefWwjt0NM1gbSTJ1kKS998A=",
+      "yandexuid": "8043491581748912051",
+      "yashr": "1512382741748912051"
+    }
+  },
+  {
+    "url": "https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0\u0026openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_signin\u0026openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select\u0026openid.assoc_handle=usflex\u0026openid.mode=checkid_setup\u0026openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select\u0026openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0",
+    "cookies": {
+      "ap-fid": "",
+      "at-main": "",
+      "sess-at-main": "",
+      "session-id": "132-8387854-5226415",
+      "session-id-time": "2379632051l",
+      "session-token": "",
+      "ubid-main": "",
+      "x-main": ""
+    }
+  },
+  {
+    "url": "https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0\u0026openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_ya_signin\u0026openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select\u0026openid.assoc_handle=usflex\u0026openid.mode=checkid_setup\u0026openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select\u0026openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0",
+    "cookies": {
+      "ap-fid": "",
+      "at-main": "",
+      "sess-at-main": "",
+      "session-id": "132-9534927-5990131",
+      "session-id-time": "2379632051l",
+      "session-token": "",
+      "ubid-main": "",
+      "x-main": ""
+    }
+  },
+  {
+    "url": "https://www.amazon.com/gp/css/homepage.html?ref_=nav_AccountFlyout_ya",
+    "cookies": {
+      "i18n-prefs": "USD",
+      "lc-main": "en_US",
+      "session-id": "138-0584811-2431950",
+      "session-id-time": "2082787201l",
+      "sp-cdn": "L5Z9:ME"
+    }
+  },
+  {
+    "url": "https://www.amazon.com/customer-preferences/edit?ie=UTF8\u0026preferencesReturnUrl=%2F\u0026ref_=topnav_lang_ais",
+    "cookies": {
+      "i18n-prefs": "USD",
+      "lc-main": "en_US",
+      "session-id": "143-6769655-7309101",
+      "session-id-time": "2082787201l",
+      "sp-cdn": "L5Z9:ME"
+    }
+  },
+  {
+    "url": "https://www.amazon.com/#skippedLink",
+    "cookies": {
+      "skin": "noskin"
+    }
+  },
+  {
+    "url": "https://auto.ru/promo/free-report/?utm_source=yandex_market\u0026utm_medium=cpm\u0026utm_campaign=none_allweb_history_promo_market_moskva-msk_1706\u0026erid=nyi26TK8Sq2EHekN43Cuj6HgNdNzFRGq",
+    "cookies": {
+      "_yasc": "XBYuCTDUjcV3F5PHoNnAuDmxtzhKwRiSmKwq5XAgtlP0xhFUS1LdfFtZoCRPK1Hz",
+      "bh": "YLOP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
+      "i": "zpJaZwMATy7kjcvfmjsOIXjO3drjX9w2R3jHgK1ytGxcliK8VCg1s8daDT21HQ5A/d8uGKwiyy3jA0QZcK05y5szDXc=",
+      "is_gdpr": "0",
+      "is_gdpr_b": "CPeNKxCDxAI=",
+      "yandexuid": "8354080961748912051",
+      "yashr": "451214581748912051"
+    }
+  },
+  {
+    "url": "https://www.amazon.com/gp/cart/view.html?ref_=nav_cart",
+    "cookies": {
+      "i18n-prefs": "USD",
+      "lc-main": "en_US",
+      "session-id": "131-2703460-1644509",
+      "session-id-time": "2082787201l",
+      "sp-cdn": "L5Z9:ME"
+    }
+  },
+  {
+    "url": "https://www.amazon.com/ref=nav_logo",
+    "cookies": {}
+  },
+  {
+    "url": "https://www.amazon.com/ap/register?openid.pape.max_auth_age=0\u0026openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F_encoding%3DUTF8%26ref_%3Dnav_newcust\u0026openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select\u0026openid.assoc_handle=usflex\u0026openid.mode=checkid_setup\u0026openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select\u0026openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0",
+    "cookies": {
+      "session-id": "141-0052897-0513037",
+      "session-id-time": "2379632051l"
+    }
+  },
+  {
+    "url": "https://www.amazon.com/registries?ref_=nav_ListFlyout_find",
+    "cookies": {
+      "i18n-prefs": "USD",
+      "lc-main": "en_US",
+      "session-id": "138-1445373-6678937",
+      "session-id-time": "2082787201l",
+      "sp-cdn": "L5Z9:ME"
+    }
+  },
+  {
+    "url": "https://www.amazon.com/gp/history?ref_=nav_AccountFlyout_browsinghistory",
+    "cookies": {
+      "i18n-prefs": "USD",
+      "lc-main": "en_US",
+      "session-id": "139-4006586-4873703",
+      "session-id-time": "2082787201l",
+      "sp-cdn": "L5Z9:ME"
+    }
+  },
+  {
+    "url": "https://www.amazon.com/gp/css/order-history?ref_=nav_orders_first",
+    "cookies": {
+      "ap-fid": "",
+      "session-id": "139-2977600-1899731",
+      "session-id-time": "2379632052l"
+    }
+  },
+  {
+    "url": "https://www.amazon.com/",
+    "cookies": {
+      "skin": "noskin"
+    }
+  },
+  {
+    "url": "https://www.amazon.com/gp/css/order-history?ref_=nav_AccountFlyout_orders",
+    "cookies": {
+      "ap-fid": "",
+      "session-id": "140-1296829-9763517",
+      "session-id-time": "2379632052l"
     }
   },
   {
     "url": "https://market.yandex.ru//favourite-category-link?utm_source=market\u0026utm_medium=suggest",
     "cookies": {
-      "_yasc": "GhJuAHkPKreUFCEElqaDBpGQa0zNWPRMq/Bd/3H97EG/76oJCyt8fsYTtQb/mc8AZPO7",
+      "_yasc": "vgFaNvzFGJgCSsFMioFbJjJUrTLtFXw/fvuNj05Zzkozh2HZbVNmslI18yNXbpS2S7w=",
+      "bh": "YLSP+cEGah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPnfrOhwg=",
       "cmp-merge": "true",
       "exp_flags": "",
-      "i": "7IOiG7fmTD9wpy1zCacxuPf+LQ5ChUoGCCQXc6p4gz5vLj5Me6YmHLM5VH/+TSBdbKwSL47BBRimG9gJpG64HuBVeME=",
+      "i": "UFgvbbWsvdtsBQFDM5lBUlJHbZzc4sYsinXds6cOk4B5vxMPcR5bjecYmchM3PGCI+77LimfbeWMOzUo+jKdmJ7yVds=",
       "market_cpa": "0",
       "reviews-merge": "true",
-      "skid": "9173755431747256839",
+      "skid": "8028867771748912052",
       "src-baobab-event-id": "0",
       "src-pof": "0",
       "src-utm-source-service": "0",
       "src-wprid": "0",
       "utm_medium": "suggest",
       "utm_source": "market",
-      "visits": "1747256839-1747256839-1747256839",
-      "yandexuid": "6547230931747256839",
-      "yashr": "5026558251747256839"
+      "visits": "1748912052-1748912052-1748912052",
+      "yandexuid": "8656584561748912052",
+      "yashr": "8643158641748912052"
+    }
+  },
+  {
+    "url": "https://www.amazon.com/gp/yourstore?ref_=nav_AccountFlyout_recs",
+    "cookies": {
+      "i18n-prefs": "USD",
+      "lc-main": "en_US",
+      "session-id": "131-1366461-4965144",
+      "session-id-time": "2082787201l",
+      "sp-cdn": "L5Z9:ME"
+    }
+  },
+  {
+    "url": "https://www.amazon.com/hz/wishlist/ls?triggerElementID=createList\u0026ref_=nav_ListFlyout_navFlyout_createList_lv_redirect",
+    "cookies": {
+      "i18n-prefs": "USD",
+      "lc-main": "en_US",
+      "session-id": "140-1429988-9927548",
+      "session-id-time": "2082787201l",
+      "sp-cdn": "L5Z9:ME"
     }
   }
 ]
