@@ -1,125 +1,126 @@
-2025/06/03 03:54:09 Программа запущена
-2025/06/03 03:54:09 Объединено 48 ссылок в combined_links.txt
-2025/06/03 03:54:09 Загружено 48 ссылок из файла combined_links.txt
-2025/06/03 03:54:11 Успешное подключение к https://x.com/
-2025/06/03 03:54:11 Куки для https://x.com/ сохранены
-2025/06/03 03:54:11 Успешное подключение к https://rutracker.org/forum/index.php
-2025/06/03 03:54:11 Куки для https://rutracker.org/forum/index.php сохранены
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/page/weekly
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/page/weekly сохранены
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/catalog
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/catalog сохранены
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/kolesoprizov?track=menu
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/kolesoprizov?track=menu сохранены
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/catalog
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/kolesoprizov?track=menu
-2025/06/03 03:54:11 Успешное подключение к https://www.youtube.com/
-2025/06/03 03:54:11 Запись для https://market.yandex.ru/catalog, уже существует
-2025/06/03 03:54:11 Запись для https://market.yandex.ru/kolesoprizov?track=menu, уже существует
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/catalog сохранены
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/kolesoprizov?track=menu сохранены
-2025/06/03 03:54:11 Куки для https://www.youtube.com/ сохранены
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/special/originals
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/special/originals сохранены
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/special/split
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/special/split
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/special/split сохранены
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/special/split сохранены
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/special/crossborder_dep
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/special/crossborder_dep сохранены
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/special/remont
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/my/cart
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/my/cart
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/my/wishlist?track=head
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/my/wishlist?track=head сохранены
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/special/remont сохранены
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/my/cart сохранены
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/my/cart сохранены
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/ сохранены
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/special/fashion_dep
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/special/crossborder_dep
-2025/06/03 03:54:11 Успешное подключение к https://ya.ru/
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/special/fashion_dep
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/catalog--tovary-dlia-doma/54422
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/my/orders?track=menu
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/special/ultima
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/special/samsung-galaxy-s24-ultra?businessId=924574&glfilter=7893318%3A153061&hid=91491&fromSins=1&erid=nyi26TK8Sq2EHekNCp3qUZbtHrLSMTg9
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/my/wishlist?track=head
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/catalog--tovary-dlia-doma/54422
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/my/orders?track=menu
-2025/06/03 03:54:11 Запись для https://market.yandex.ru/special/crossborder_dep, уже существует
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/special/crossborder_dep сохранены
-2025/06/03 03:54:11 Запись для https://market.yandex.ru/my/wishlist?track=head, уже существует
-2025/06/03 03:54:11 Запись для https://market.yandex.ru/, уже существует
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/my/wishlist?track=head сохранены
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/ сохранены
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/my/orders?track=menu сохранены
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/special/samsung-galaxy-s24-ultra?businessId=924574&glfilter=7893318%3A153061&hid=91491&fromSins=1&erid=nyi26TK8Sq2EHekNCp3qUZbtHrLSMTg9 сохранены
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/my/orders?track=menu сохранены
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/special/ultima сохранены
-2025/06/03 03:54:11 Куки для https://ya.ru/ сохранены
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/special/fashion_dep сохранены
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/special/fashion_dep сохранены
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/catalog--tovary-dlia-doma/54422 сохранены
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/catalog--tovary-dlia-doma/54422 сохранены
-2025/06/03 03:54:11 Успешное подключение к https://market.yandex.ru/special/ultima
-2025/06/03 03:54:11 Успешное подключение к https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
-2025/06/03 03:54:11 Успешное подключение к https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
-2025/06/03 03:54:11 Запись для https://market.yandex.ru/special/ultima, уже существует
-2025/06/03 03:54:11 Куки для https://market.yandex.ru/special/ultima сохранены
-2025/06/03 03:54:11 Куки для https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 сохранены
-2025/06/03 03:54:11 Куки для https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 сохранены
-2025/06/03 03:54:11 Успешное подключение к https://www.amazon.com/gp/css/homepage.html?ref_=nav_AccountFlyout_ya
-2025/06/03 03:54:11 Куки для https://www.amazon.com/gp/css/homepage.html?ref_=nav_AccountFlyout_ya сохранены
-2025/06/03 03:54:11 Успешное подключение к https://www.amazon.com/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang_ais
-2025/06/03 03:54:11 Куки для https://www.amazon.com/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang_ais сохранены
-2025/06/03 03:54:11 Успешное подключение к https://www.amazon.com/#skippedLink
-2025/06/03 03:54:11 Куки для https://www.amazon.com/#skippedLink сохранены
-2025/06/03 03:54:12 Успешное подключение к https://ya.ru/
-2025/06/03 03:54:12 Запись для https://ya.ru/, уже существует
-2025/06/03 03:54:12 Куки для https://ya.ru/ сохранены
-2025/06/03 03:54:12 Успешное подключение к https://auto.ru/promo/free-report/?utm_source=yandex_market&utm_medium=cpm&utm_campaign=none_allweb_history_promo_market_moskva-msk_1706&erid=nyi26TK8Sq2EHekN43Cuj6HgNdNzFRGq
-2025/06/03 03:54:12 Куки для https://auto.ru/promo/free-report/?utm_source=yandex_market&utm_medium=cpm&utm_campaign=none_allweb_history_promo_market_moskva-msk_1706&erid=nyi26TK8Sq2EHekN43Cuj6HgNdNzFRGq сохранены
-2025/06/03 03:54:12 Успешное подключение к https://www.amazon.com/gp/cart/view.html?ref_=nav_cart
-2025/06/03 03:54:12 Куки для https://www.amazon.com/gp/cart/view.html?ref_=nav_cart сохранены
-2025/06/03 03:54:12 Успешное подключение к https://www.amazon.com/ref=nav_logo
-2025/06/03 03:54:12 Куки для https://www.amazon.com/ref=nav_logo сохранены
-2025/06/03 03:54:12 Успешное подключение к https://www.amazon.com/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F_encoding%3DUTF8%26ref_%3Dnav_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
-2025/06/03 03:54:12 Куки для https://www.amazon.com/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F_encoding%3DUTF8%26ref_%3Dnav_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 сохранены
-2025/06/03 03:54:12 Успешное подключение к https://www.amazon.com/registries?ref_=nav_ListFlyout_find
-2025/06/03 03:54:12 Куки для https://www.amazon.com/registries?ref_=nav_ListFlyout_find сохранены
-2025/06/03 03:54:12 Успешное подключение к https://www.amazon.com/gp/history?ref_=nav_AccountFlyout_browsinghistory
-2025/06/03 03:54:12 Куки для https://www.amazon.com/gp/history?ref_=nav_AccountFlyout_browsinghistory сохранены
-2025/06/03 03:54:12 Успешное подключение к https://www.amazon.com/gp/css/order-history?ref_=nav_orders_first
-2025/06/03 03:54:12 Куки для https://www.amazon.com/gp/css/order-history?ref_=nav_orders_first сохранены
-2025/06/03 03:54:12 Успешное подключение к https://www.amazon.com/
-2025/06/03 03:54:12 Куки для https://www.amazon.com/ сохранены
-2025/06/03 03:54:12 Успешное подключение к https://www.amazon.com/gp/css/order-history?ref_=nav_AccountFlyout_orders
-2025/06/03 03:54:12 Куки для https://www.amazon.com/gp/css/order-history?ref_=nav_AccountFlyout_orders сохранены
-2025/06/03 03:54:12 Успешное подключение к https://market.yandex.ru//favourite-category-link?utm_source=market&utm_medium=suggest
-2025/06/03 03:54:12 Куки для https://market.yandex.ru//favourite-category-link?utm_source=market&utm_medium=suggest сохранены
-2025/06/03 03:54:12 Успешное подключение к https://www.amazon.com/gp/yourstore?ref_=nav_AccountFlyout_recs
-2025/06/03 03:54:12 Куки для https://www.amazon.com/gp/yourstore?ref_=nav_AccountFlyout_recs сохранены
-2025/06/03 03:54:12 Успешное подключение к https://www.amazon.com/hz/wishlist/ls?triggerElementID=createList&ref_=nav_ListFlyout_navFlyout_createList_lv_redirect
-2025/06/03 03:54:12 Куки для https://www.amazon.com/hz/wishlist/ls?triggerElementID=createList&ref_=nav_ListFlyout_navFlyout_createList_lv_redirect сохранены
-2025/06/03 03:54:15 Кука для URL https://market.yandex.ru/catalog уже существует, пропускаем.
-2025/06/03 03:54:15 Кука для URL https://market.yandex.ru/kolesoprizov?track=menu уже существует, пропускаем.
-2025/06/03 03:54:15 Кука для URL https://market.yandex.ru/special/split уже существует, пропускаем.
-2025/06/03 03:54:15 Кука для URL https://market.yandex.ru/my/cart уже существует, пропускаем.
-2025/06/03 03:54:15 Кука для URL https://market.yandex.ru/special/crossborder_dep уже существует, пропускаем.
-2025/06/03 03:54:15 Кука для URL https://market.yandex.ru/my/wishlist?track=head уже существует, пропускаем.
-2025/06/03 03:54:15 Кука для URL https://market.yandex.ru/ уже существует, пропускаем.
-2025/06/03 03:54:15 Кука для URL https://market.yandex.ru/my/orders?track=menu уже существует, пропускаем.
-2025/06/03 03:54:15 Кука для URL https://market.yandex.ru/catalog--tovary-dlia-doma/54422 уже существует, пропускаем.
-2025/06/03 03:54:15 Кука для URL https://market.yandex.ru/special/fashion_dep уже существует, пропускаем.
-2025/06/03 03:54:15 Кука для URL https://market.yandex.ru/special/ultima уже существует, пропускаем.
-2025/06/03 03:54:15 Кука для URL https://ya.ru/ уже существует, пропускаем.
-2025/06/03 03:54:15 Куки сохранены в cookies.json
-2025/06/03 03:54:15 HTML-отчет сохранен в report.html
-2025/06/03 03:54:15 HTML-отчет открыт в браузере
-2025/06/03 03:54:15 Done
-2025/06/03 04:08:07 Программа запущена
-2025/06/03 04:08:07 Объединено 48 ссылок в combined_links.txt
-2025/06/03 04:08:07 Загружено 48 ссылок из файла combined_links.txt
+2025/06/06 18:42:15 Программа запущена
+2025/06/06 18:42:15 Объединено 48 ссылок в combined_links.txt
+2025/06/06 18:42:15 Загружено 48 ссылок из файла combined_links.txt
+2025/06/06 18:42:17 Успешное подключение к https://x.com/
+2025/06/06 18:42:17 Куки для https://x.com/ сохранены
+2025/06/06 18:42:17 Успешное подключение к https://market.yandex.ru/page/weekly
+2025/06/06 18:42:17 Куки для https://market.yandex.ru/page/weekly сохранены
+2025/06/06 18:42:17 Успешное подключение к https://market.yandex.ru/special/crossborder_dep
+2025/06/06 18:42:17 Успешное подключение к https://market.yandex.ru/special/split
+2025/06/06 18:42:17 Куки для https://market.yandex.ru/special/crossborder_dep сохранены
+2025/06/06 18:42:17 Куки для https://market.yandex.ru/special/split сохранены
+2025/06/06 18:42:17 Успешное подключение к https://market.yandex.ru/catalog
+2025/06/06 18:42:17 Куки для https://market.yandex.ru/catalog сохранены
+2025/06/06 18:42:17 Успешное подключение к https://market.yandex.ru/kolesoprizov?track=menu
+2025/06/06 18:42:17 Успешное подключение к https://market.yandex.ru/catalog
+2025/06/06 18:42:17 Успешное подключение к https://www.amazon.com/
+2025/06/06 18:42:17 Запись для https://market.yandex.ru/catalog, уже существует
+2025/06/06 18:42:17 Куки для https://market.yandex.ru/catalog сохранены
+2025/06/06 18:42:17 Куки для https://www.amazon.com/ сохранены
+2025/06/06 18:42:17 Куки для https://market.yandex.ru/kolesoprizov?track=menu сохранены
+2025/06/06 18:42:17 Успешное подключение к https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+2025/06/06 18:42:17 Успешное подключение к https://www.amazon.com/gp/css/homepage.html?ref_=nav_AccountFlyout_ya
+2025/06/06 18:42:17 Куки для https://www.amazon.com/gp/css/homepage.html?ref_=nav_AccountFlyout_ya сохранены
+2025/06/06 18:42:17 Куки для https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 сохранены
+2025/06/06 18:42:17 Успешное подключение к https://ya.ru/
+2025/06/06 18:42:17 Успешное подключение к https://market.yandex.ru/
+2025/06/06 18:42:17 Успешное подключение к https://market.yandex.ru/my/orders?track=menu
+2025/06/06 18:42:17 Успешное подключение к https://market.yandex.ru/catalog--tovary-dlia-doma/54422
+2025/06/06 18:42:17 Куки для https://market.yandex.ru/my/orders?track=menu сохранены
+2025/06/06 18:42:17 Куки для https://ya.ru/ сохранены
+2025/06/06 18:42:17 Успешное подключение к https://market.yandex.ru/my/wishlist?track=head
+2025/06/06 18:42:17 Куки для https://market.yandex.ru/catalog--tovary-dlia-doma/54422 сохранены
+2025/06/06 18:42:17 Куки для https://market.yandex.ru/ сохранены
+2025/06/06 18:42:17 Успешное подключение к https://www.amazon.com/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang_ais
+2025/06/06 18:42:17 Куки для https://www.amazon.com/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang_ais сохранены
+2025/06/06 18:42:17 Куки для https://market.yandex.ru/my/wishlist?track=head сохранены
+2025/06/06 18:42:17 Успешное подключение к https://market.yandex.ru/special/remont
+2025/06/06 18:42:18 Куки для https://market.yandex.ru/special/remont сохранены
+2025/06/06 18:42:18 Успешное подключение к https://www.amazon.com/registries?ref_=nav_ListFlyout_find
+2025/06/06 18:42:18 Куки для https://www.amazon.com/registries?ref_=nav_ListFlyout_find сохранены
+2025/06/06 18:42:18 Успешное подключение к https://market.yandex.ru/special/fashion_dep
+2025/06/06 18:42:18 Куки для https://market.yandex.ru/special/fashion_dep сохранены
+2025/06/06 18:42:18 Успешное подключение к https://www.amazon.com/gp/cart/view.html?ref_=nav_cart
+2025/06/06 18:42:18 Куки для https://www.amazon.com/gp/cart/view.html?ref_=nav_cart сохранены
+2025/06/06 18:42:18 Успешное подключение к https://market.yandex.ru/kolesoprizov?track=menu
+2025/06/06 18:42:18 Успешное подключение к https://www.amazon.com/#skippedLink
+2025/06/06 18:42:18 Успешное подключение к https://www.amazon.com/ref=nav_logo
+2025/06/06 18:42:18 Запись для https://market.yandex.ru/kolesoprizov?track=menu, уже существует
+2025/06/06 18:42:18 Куки для https://market.yandex.ru/kolesoprizov?track=menu сохранены
+2025/06/06 18:42:18 Куки для https://www.amazon.com/#skippedLink сохранены
+2025/06/06 18:42:18 Куки для https://www.amazon.com/ref=nav_logo сохранены
+2025/06/06 18:42:18 Успешное подключение к https://market.yandex.ru/special/samsung-galaxy-s24-ultra?businessId=924574&glfilter=7893318%3A153061&hid=91491&fromSins=1&erid=nyi26TK8Sq2EHekNCp3qUZbtHrLSMTg9
+2025/06/06 18:42:18 Успешное подключение к https://market.yandex.ru/special/fashion_dep
+2025/06/06 18:42:18 Запись для https://market.yandex.ru/special/fashion_dep, уже существует
+2025/06/06 18:42:18 Куки для https://market.yandex.ru/special/fashion_dep сохранены
+2025/06/06 18:42:18 Куки для https://market.yandex.ru/special/samsung-galaxy-s24-ultra?businessId=924574&glfilter=7893318%3A153061&hid=91491&fromSins=1&erid=nyi26TK8Sq2EHekNCp3qUZbtHrLSMTg9 сохранены
+2025/06/06 18:42:18 Успешное подключение к https://market.yandex.ru/my/orders?track=menu
+2025/06/06 18:42:18 Успешное подключение к https://market.yandex.ru/special/ultima
+2025/06/06 18:42:18 Успешное подключение к https://www.youtube.com/
+2025/06/06 18:42:18 Успешное подключение к https://market.yandex.ru/special/crossborder_dep
+2025/06/06 18:42:18 Успешное подключение к https://market.yandex.ru/catalog--tovary-dlia-doma/54422
+2025/06/06 18:42:18 Успешное подключение к https://market.yandex.ru/special/split
+2025/06/06 18:42:18 Успешное подключение к https://market.yandex.ru/
+2025/06/06 18:42:18 Успешное подключение к https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+2025/06/06 18:42:18 Успешное подключение к https://www.amazon.com/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F_encoding%3DUTF8%26ref_%3Dnav_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+2025/06/06 18:42:18 Успешное подключение к https://www.amazon.com/gp/history?ref_=nav_AccountFlyout_browsinghistory
+2025/06/06 18:42:18 Запись для https://market.yandex.ru/my/orders?track=menu, уже существует
+2025/06/06 18:42:18 Куки для https://market.yandex.ru/my/orders?track=menu сохранены
+2025/06/06 18:42:18 Запись для https://market.yandex.ru/special/split, уже существует
+2025/06/06 18:42:18 Запись для https://market.yandex.ru/, уже существует
+2025/06/06 18:42:18 Запись для https://market.yandex.ru/special/crossborder_dep, уже существует
+2025/06/06 18:42:18 Куки для https://market.yandex.ru/special/split сохранены
+2025/06/06 18:42:18 Куки для https://market.yandex.ru/ сохранены
+2025/06/06 18:42:18 Запись для https://market.yandex.ru/catalog--tovary-dlia-doma/54422, уже существует
+2025/06/06 18:42:18 Куки для https://market.yandex.ru/special/crossborder_dep сохранены
+2025/06/06 18:42:18 Куки для https://market.yandex.ru/catalog--tovary-dlia-doma/54422 сохранены
+2025/06/06 18:42:18 Куки для https://www.amazon.com/gp/history?ref_=nav_AccountFlyout_browsinghistory сохранены
+2025/06/06 18:42:18 Куки для https://market.yandex.ru/special/ultima сохранены
+2025/06/06 18:42:18 Куки для https://www.youtube.com/ сохранены
+2025/06/06 18:42:18 Куки для https://www.amazon.com/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F_encoding%3DUTF8%26ref_%3Dnav_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 сохранены
+2025/06/06 18:42:18 Куки для https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 сохранены
+2025/06/06 18:42:18 Успешное подключение к https://market.yandex.ru/special/ultima
+2025/06/06 18:42:18 Запись для https://market.yandex.ru/special/ultima, уже существует
+2025/06/06 18:42:18 Куки для https://market.yandex.ru/special/ultima сохранены
+2025/06/06 18:42:18 Успешное подключение к https://market.yandex.ru/special/originals
+2025/06/06 18:42:18 Успешное подключение к https://market.yandex.ru/my/wishlist?track=head
+2025/06/06 18:42:18 Успешное подключение к https://market.yandex.ru/my/cart
+2025/06/06 18:42:18 Запись для https://market.yandex.ru/my/wishlist?track=head, уже существует
+2025/06/06 18:42:18 Куки для https://market.yandex.ru/my/wishlist?track=head сохранены
+2025/06/06 18:42:18 Куки для https://market.yandex.ru/special/originals сохранены
+2025/06/06 18:42:18 Куки для https://market.yandex.ru/my/cart сохранены
+2025/06/06 18:42:18 Успешное подключение к https://auto.ru/promo/free-report/?utm_source=yandex_market&utm_medium=cpm&utm_campaign=none_allweb_history_promo_market_moskva-msk_1706&erid=nyi26TK8Sq2EHekN43Cuj6HgNdNzFRGq
+2025/06/06 18:42:18 Куки для https://auto.ru/promo/free-report/?utm_source=yandex_market&utm_medium=cpm&utm_campaign=none_allweb_history_promo_market_moskva-msk_1706&erid=nyi26TK8Sq2EHekN43Cuj6HgNdNzFRGq сохранены
+2025/06/06 18:42:18 Успешное подключение к https://ya.ru/
+2025/06/06 18:42:18 Запись для https://ya.ru/, уже существует
+2025/06/06 18:42:18 Куки для https://ya.ru/ сохранены
+2025/06/06 18:42:18 Успешное подключение к https://www.amazon.com/gp/yourstore?ref_=nav_AccountFlyout_recs
+2025/06/06 18:42:18 Куки для https://www.amazon.com/gp/yourstore?ref_=nav_AccountFlyout_recs сохранены
+2025/06/06 18:42:18 Успешное подключение к https://www.amazon.com/hz/wishlist/ls?triggerElementID=createList&ref_=nav_ListFlyout_navFlyout_createList_lv_redirect
+2025/06/06 18:42:18 Куки для https://www.amazon.com/hz/wishlist/ls?triggerElementID=createList&ref_=nav_ListFlyout_navFlyout_createList_lv_redirect сохранены
+2025/06/06 18:42:18 Успешное подключение к https://market.yandex.ru/my/cart
+2025/06/06 18:42:18 Запись для https://market.yandex.ru/my/cart, уже существует
+2025/06/06 18:42:18 Куки для https://market.yandex.ru/my/cart сохранены
+2025/06/06 18:42:18 Успешное подключение к https://www.amazon.com/gp/css/order-history?ref_=nav_orders_first
+2025/06/06 18:42:18 Успешное подключение к https://market.yandex.ru//favourite-category-link?utm_source=market&utm_medium=suggest
+2025/06/06 18:42:18 Куки для https://market.yandex.ru//favourite-category-link?utm_source=market&utm_medium=suggest сохранены
+2025/06/06 18:42:18 Куки для https://www.amazon.com/gp/css/order-history?ref_=nav_orders_first сохранены
+2025/06/06 18:42:19 Успешное подключение к https://www.amazon.com/gp/css/order-history?ref_=nav_AccountFlyout_orders
+2025/06/06 18:42:19 Куки для https://www.amazon.com/gp/css/order-history?ref_=nav_AccountFlyout_orders сохранены
+2025/06/06 18:42:27 Не удалось подключиться к сайту https://rutracker.org/forum/index.php: Get "https://rutracker.org/forum/index.php": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2025/06/06 18:42:27 Кука для URL https://market.yandex.ru/catalog уже существует, пропускаем.
+2025/06/06 18:42:27 Кука для URL https://market.yandex.ru/kolesoprizov?track=menu уже существует, пропускаем.
+2025/06/06 18:42:27 Кука для URL https://market.yandex.ru/special/fashion_dep уже существует, пропускаем.
+2025/06/06 18:42:27 Кука для URL https://market.yandex.ru/my/orders?track=menu уже существует, пропускаем.
+2025/06/06 18:42:27 Кука для URL https://market.yandex.ru/special/split уже существует, пропускаем.
+2025/06/06 18:42:27 Кука для URL https://market.yandex.ru/ уже существует, пропускаем.
+2025/06/06 18:42:27 Кука для URL https://market.yandex.ru/special/crossborder_dep уже существует, пропускаем.
+2025/06/06 18:42:27 Кука для URL https://market.yandex.ru/catalog--tovary-dlia-doma/54422 уже существует, пропускаем.
+2025/06/06 18:42:27 Кука для URL https://market.yandex.ru/special/ultima уже существует, пропускаем.
+2025/06/06 18:42:27 Кука для URL https://market.yandex.ru/my/wishlist?track=head уже существует, пропускаем.
+2025/06/06 18:42:27 Кука для URL https://ya.ru/ уже существует, пропускаем.
+2025/06/06 18:42:27 Кука для URL https://market.yandex.ru/my/cart уже существует, пропускаем.
+2025/06/06 18:42:27 Куки сохранены в cookies.json
+2025/06/06 18:42:27 HTML-отчет сохранен в report.html
+2025/06/06 18:42:27 HTML-отчет открыт в браузере
+2025/06/06 18:42:27 Done
